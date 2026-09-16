@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "minecards"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecards:card_logo"
+		tag: {
+			Foil: 0b
+			Quality: "mint"
+		}
+	}
+	id: "6DADF1065BAC49F5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "32EE611D6A73E73F"
+			invisible: true
+			rewards: [{
+				id: "3D6C6CA2BCD8C06E"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:aquatic_set"
+				criterion: ""
+				id: "6E0F002BD21A97B4"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "7FD7F9657A41CC1D"
+			invisible: true
+			rewards: [{
+				id: "30364BB8D6D85EB2"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:deep_and_dark_set"
+				criterion: ""
+				id: "4094DEB17CB0CD77"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "5690850E20F317DD"
+			invisible: true
+			rewards: [{
+				id: "4704C7A7603DD913"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:aquatic_set_foil"
+				criterion: ""
+				id: "2BDE081C2F05CF29"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "729BC1C460ABA632"
+			invisible: true
+			rewards: [{
+				id: "04CEF075872302BB"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:deep_and_dark_set_foil"
+				criterion: ""
+				id: "16048EB81AC91BCE"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "6899082FCB5CDD6E"
+			invisible: true
+			rewards: [{
+				id: "3CDD0C475E8D9948"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:end_set"
+				criterion: ""
+				id: "6280A0392EC3C149"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "45280B64B5474A50"
+			invisible: true
+			rewards: [{
+				id: "65A5DC3E33B6F5CD"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:end_set_foil"
+				criterion: ""
+				id: "4EF1817A5CB0A116"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "573088940DE32938"
+			invisible: true
+			rewards: [{
+				id: "50F4144AD22F8317"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:nether_set"
+				criterion: ""
+				id: "4F84B730DCD0DEF0"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "7FFEF9781FAE86A4"
+			invisible: true
+			rewards: [{
+				id: "39372B8F4B4D349D"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:nether_set_foil"
+				criterion: ""
+				id: "2786365CD1EDF61D"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "1FA060F720F5BB16"
+			invisible: true
+			rewards: [{
+				id: "21CBD624C51D32A1"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:overworld_set"
+				criterion: ""
+				id: "18702F95715B2AFB"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "11C82E68618DDB98"
+			invisible: true
+			rewards: [{
+				id: "46EFAD29945AF1DE"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:overworld_set_foil"
+				criterion: ""
+				id: "012577B700FFBD1B"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "1E079A2768F1A480"
+			invisible: true
+			rewards: [{
+				id: "7E9E7889C7EE0248"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:retro_set"
+				criterion: ""
+				id: "5E21A071B0DE7E04"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "75DE9D98F2EACFE8"
+			invisible: true
+			rewards: [{
+				id: "2721A1DD4CD33E95"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:retro_set_foil"
+				criterion: ""
+				id: "568A1A2D5BE67126"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "512852465627F763"
+			invisible: true
+			rewards: [{
+				id: "73966EBEABADBE18"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:village_and_pillage_set"
+				criterion: ""
+				id: "78FCEC066224E4AD"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "09E459FDA00C61DA"
+			invisible: true
+			rewards: [{
+				id: "110E0BA26913A3E7"
+				item: "minecards:foil_card_box"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecards:village_and_pillage_set_foil"
+				criterion: ""
+				id: "60FBD378E86A2EC9"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"32EE611D6A73E73F"
+				"7FD7F9657A41CC1D"
+				"6899082FCB5CDD6E"
+				"573088940DE32938"
+				"1FA060F720F5BB16"
+				"1E079A2768F1A480"
+				"512852465627F763"
+			]
+			hide_until_deps_complete: true
+			id: "3066CE625E4C0B5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22E2775F8DD36DEF"
+				table_id: 580897253262434460L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "24C4848A35D6D1CB"
+				type: "checkmark"
+			}]
+			title: "Collectionneur"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5690850E20F317DD"
+				"729BC1C460ABA632"
+				"45280B64B5474A50"
+				"7FFEF9781FAE86A4"
+				"11C82E68618DDB98"
+				"75DE9D98F2EACFE8"
+				"09E459FDA00C61DA"
+			]
+			hide_until_deps_complete: true
+			id: "721C6AD00EF9CB05"
+			rewards: [{
+				id: "4923760450A35294"
+				item: {
+					Count: 1
+					id: "minecards:card_blank_card"
+					tag: {
+						Foil: 0b
+						Quality: "mint"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F39933242B02D1A"
+				type: "checkmark"
+			}]
+			title: "Fou du bus"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"32EE611D6A73E73F"
+				"7FD7F9657A41CC1D"
+				"6899082FCB5CDD6E"
+				"573088940DE32938"
+				"1FA060F720F5BB16"
+				"1E079A2768F1A480"
+				"512852465627F763"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "517B2E83853FD6A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D299A06ECF17AE"
+				table_id: 580897253262434460L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "070644E34766961D"
+				type: "checkmark"
+			}]
+			title: "Cartomancien"
+			x: -2.0d
+			y: 3.0d
+		}
+	]
+	title: "Minecards"
+}

@@ -1,0 +1,16 @@
+{
+  "enabledStructures": [
+    "ivp:small_village_desert",
+    "ivp:small_village_plains",
+    "ivp:small_village_savanna",
+    "ivp:small_village_snowy",
+    "ivp:small_village_taiga"
+  ],
+  "enabledTags": [
+    "minecraft:village",
+    "ivp:small_village",
+    "ivp:standard_village",
+    "supplementaries:way_sign_destinations"
+  ],
+  "useTagMode": true
+}

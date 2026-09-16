@@ -1,0 +1,32 @@
+
+[Visual]
+	#Enable mana transfer particle effects and block entity renderer orbs
+	enableManaParticles = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#Iron's Botany spawns its particles server-side via ServerLevel.sendParticles,
+	#which chooses the count before the packet is sent, so a client-side setting
+	#cannot influence it. Use Video Settings -> Particles to reduce particles on
+	#this client; the vanilla particle engine honours it for every mod.
+	#See docs/SYSTEM-DECISIONS-1.10.0.md.
+	#Range: 1 ~ 10
+	particleDensity = 5
+
+[HUD]
+	#Show Botania mana indicator on HUD
+	showManaHUD = true
+	#HUD X position offset
+	#Range: -500 ~ 500
+	hudXOffset = 100
+	#HUD Y position offset
+	#Range: -500 ~ 500
+	hudYOffset = -60
+	#HUD scale (0.5 - 2.0). The bar is kept fully on screen at its drawn size.
+	#Before 1.10.0 this value was read from the config but never applied.
+	#Range: 0.5 ~ 2.0
+	hudScale = 1.0
+	#Pulse the mana bar's border while an Iron's Botany block holding mana is
+	#nearby. Set to false to keep the indicator but stop it animating -
+	#an accessibility option for motion sensitivity. The indicator itself
+	#still appears, drawn steady.
+	hudPulseNearby = true
+

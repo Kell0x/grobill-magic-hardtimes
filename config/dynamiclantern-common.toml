@@ -1,0 +1,5 @@
+#Log Cold Sweat Soulspring Lamp Curios compatibility diagnostics while the lamp is equipped.
+soulspringLampDebugLog = false
+#Add Dynamic Lantern's dedicated Curios lantern slot to players.
+enableLanternSlot = false
+

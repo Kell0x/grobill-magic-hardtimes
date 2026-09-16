@@ -1,0 +1,46 @@
+#Bleedout duration in seconds before death
+#Время кровотечения в секундах перед смертью
+#Range: 1 ~ 300
+bleedoutTime = 300
+#Revival time in seconds (right-click on downed player)
+#Время возрождения в секундах (ПКМ по лежащему игроку)
+#Range: 1 ~ 60
+reviveTime = 3
+#Maximum distance in blocks to start and continue revival
+#Максимальная дальность для начала и продолжения возрождения в блоках
+#Range: 1.0 ~ 20.0
+reviveDistance = 5.0
+#Time to hold left-click for suicide in seconds
+#Время удержания ЛКМ для самоубийства в секундах
+#Range: 1 ~ 10
+suicideTime = 3
+#Health in half-hearts when downed (6 = 3 hearts)
+#Здоровье в половинках сердец когда игрок лежит (6 = 3 сердца)
+#Range: 1 ~ 20
+bleedingHealth = 2
+#Initial invulnerability time in ticks after being downed (10 = 0.5 seconds)
+#Время начальной неуязвимости в тиках после падения (10 = 0.5 секунды)
+#Range: 0 ~ 100
+initialDamageCooldown = 10
+#Disable movement while bleeding
+#Отключить движение во время кровотечения
+disableMovementWhileBleeding = false
+#Make bleeding players ignored by mob targeting
+#Мобы игнорируют игроков во время кровотечения как цель
+bleedingPlayersIgnoredByMobs = true
+#Effects applied while bleeding. Format: effect_id[:amplifier], amplifier starts at 0
+#Эффекты во время кровотечения. Формат: effect_id[:amplifier], уровень начинается с 0
+bleedingEffects = ["minecraft:slowness:1"]
+#Keyboard and mouse inputs disabled while bleeding
+#Special values: ALL_KEYBOARD disables all keyboard input, ALL disables keyboard and mouse buttons
+#Examples: key.jump, key.sneak, key.inventory, key.attack, key.use
+#Клавиши и кнопки мыши, отключаемые во время кровотечения
+#Спецзначения: ALL_KEYBOARD отключает всю клавиатуру, ALL отключает клавиатуру и кнопки мыши
+disabledInputsWhileBleeding = ["key.parcool.Enable", "key.parcool.Crawl", "key.parcool.ClingToCliff", "key.parcool.Breakfall", "key.parcool.FastRun", "key.parcool.Flipping", "key.parcool.Vault", "key.parcool.Dodge", "key.parcool.RideZipline", "key.parcool.WallJump", "key.parcool.HangDown", "key.parcool.WallSlide", "key.parcool.HideInBlock", "key.parcool.HorizontalWallRun", "key.parcool.QuickTurn", "key.parcool.openSetting"]
+#Enable suicide option while bleeding
+#Разрешить самоубийство во время кровотечения
+enableSuicide = true
+#Enable bleedout timer (if false, players will bleed indefinitely until revived or killed)
+#Включить таймер кровотечения (если отключено, игроки будут лежать бесконечно, пока их не поднимут или не убьют)
+enableBleedoutTimer = true
+

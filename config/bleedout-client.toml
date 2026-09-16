@@ -1,0 +1,11 @@
+#HUD interface scale (text and progress bars)
+#Масштаб интерфейса HUD (текст и прогресс-бары)
+#Range: 0.5 ~ 3.0
+hudScale = 1.5
+#Enable heartbeat sound during bleeding
+#Включить звук сердцебиения при кровотечении
+enableHeartbeatSound = true
+#Enable knocked teammate icon rendering in world
+#Включить рендер иконки нокнутых союзников в мире
+enableKnockedTeammateRender = true
+

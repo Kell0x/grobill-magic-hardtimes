@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rentrez"
+	group: ""
+	icon: "ftbquests:book"
+	id: "7C3BFA2092A39F9A"
+	images: [
+		{
+			dependency: "0E2FA07DF137C281"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependency: "295F9D2DF4730766"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependency: "13BA4A3C0B75891F"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependency: "18CF1BA3AF6910E1"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependency: "2B8F3D90032170CF"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependency: "3ECAAA9198F6BDFB"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependency: "6CA68E4E16B30781"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependency: "7EDF2DD009FA9176"
+			height: 1.0d
+			image: "kubejs:textures/quests/arcane_platform.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependency: "15DA2C382DDA5719"
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependency: "15DA2C382DDA5719"
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependency: "15DA2C382DDA5719"
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependency: "15DA2C382DDA5719"
+			height: 1.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependency: "43F5CFE33A43A318"
+			height: 0.5d
+			image: "kubejs:block/life_essence_block_oc"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "slimcolonies:resourcescroll"
+				tag: { }
+			}
+			id: "7AAACE9268F1F160"
+			rewards: [{
+				icon: "hexcasting:scroll_small"
+				id: "03C1D8C42E1B1E9A"
+				title: "Diplôme de l'ADELM"
+				type: "custom"
+			}]
+			subtitle: "Bonne chance."
+			tasks: [{
+				dimension: "adelm:adelm"
+				id: "76BA47BD4170932A"
+				title: "Rentrez à l'ADELM"
+				type: "dimension"
+			}]
+			title: "Obtenez votre diplôme"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Votre courage et votre détermination vous ont permis de venir à bout de cette immondice. Si seulement vous mettiez autant d'effort à apprendre vos leçons, vous n'en seriez sûrement pas là aujourd'hui."
+				""
+				"Ces yeux semblaient regarder au travers de vous, et c'est non sans plaisir que vous avez arraché ce trophée du cadavre de cette saloperie."
+			]
+			id: "0C55720FD64B42B8"
+			invisible: true
+			rewards: [{
+				id: "217E0335AA9656E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Dégage ! Tu es moche !"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "412BB773F2646408"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Netherite Monstrosity"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tandis que l'exosquelette du shulk se désagrège, vous observez cette petite carcasse sans vie et vous vous demandez si elle a déjà prononcé les mots \"exterminate\" sur un ton monocorde."
+				""
+				"En tous cas, ses yeux rejoignent votre collection, qu'est-ce que vous allez bien pouvoir faire de tout ça ?"
+			]
+			id: "69B049FB36CB98DE"
+			invisible: true
+			rewards: [{
+				id: "7037C4CCE0E4144F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Il était tout mignon en fait"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
+				id: "6E4593078C301762"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ender Guardian"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Vous venez d'éteindre à tout jamais la possibilité pour les withers de s'identifier à un héro de leur espèce, mais aucune autre race ne vous en voudra."
+				""
+				"Les yeux bourdonnent dans votre poche à chaque fois que le regard tourne mécaniquement."
+			]
+			id: "6AEAB73FCCB296AE"
+			invisible: true
+			rewards: [{
+				id: "1BFB9F63F7EA5393"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "I am Iron Man"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:mech_eye"
+				id: "07A2EFD4DD702F84"
+				type: "kill"
+				value: 1L
+			}]
+			title: "the Harbinger"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Le désert ne fais pas de cadeau, mais vous non plus. Si d'aucun doutait de vos aptitudes martiales, personne ne se moquera de vous pour ça."
+				""
+				"Les yeux de cette créatures semblent prets à tomber en poussière au moindre geste brusque, mais le regard acéré ne vous quitte pas pour autant."
+			]
+			id: "2C30A645E6D24965"
+			invisible: true
+			rewards: [{
+				id: "41B38FE7CD0B5B35"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Sa place est dans un musée"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:desert_eye"
+				id: "5E7F3D8D78B6D2D1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ancient Remnant"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Cette saleté vous fera faire des cauchemars pendant des années, mais à chaque fois que vous vous réveillerz vous vous souviendrez de son râle d'agonie, et ça vous mettra sûrement de bonne humeur."
+				""
+				"Ses yeux humides semblent inquiets, est-ce que cette bestiole cherchait à protéger quelque chose ?"
+			]
+			id: "2CED3BFD890D7245"
+			invisible: true
+			rewards: [{
+				id: "1796BCB5BD168B32"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ca va la thalassophobie ?"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyss_eye"
+				id: "1089373922050661"
+				type: "kill"
+				value: 1L
+			}]
+			title: "the Leviathan"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Certaines créatures appartiennent au passé, et vous vous êtes fait un devoir de vous en assurer."
+				""
+				"Les yeux parcourus d'électricité statique s'agitent dans votre sac, ils semblent prédire les orages ?"
+			]
+			id: "5B95F4B90C582EA3"
+			invisible: true
+			rewards: [{
+				id: "45942C96991227D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Survivante ? Plus maintenant"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:storm_eye"
+				id: "410D5A3908E2EF62"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Scylla"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Dans un râle d'agonie, Maledictus a rejoint vos trophées de chasse."
+				""
+				"Ses yeux semblent vous maudire même après que la lumière s'y soit éteinte, et vous les sentez doucement vibrer d'une énergie magique latente."
+			]
+			id: "703DEBA496B7ECA8"
+			invisible: true
+			rewards: [{
+				id: "3F2991886A16A03C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Celui-là ne manquera à personne"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "28A3152677D34209"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Maledictus"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Vous avez eu chaud, mais vous avez vaincu un gardien des enfers, c'est peu dire !"
+				""
+				"Vous empochez ses yeux, qui semblent produire leur propre chaleur, en vous demandant ce qu'ils semblent regarder à présent."
+			]
+			id: "23BE43E5ECFEA8A7"
+			invisible: true
+			rewards: [{
+				id: "6A05B995B994C345"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Il en a perdu son latin"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
+				id: "65344914CFF2C3A8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ignis"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69B049FB36CB98DE"
+				"23BE43E5ECFEA8A7"
+				"703DEBA496B7ECA8"
+				"0C55720FD64B42B8"
+				"5B95F4B90C582EA3"
+				"6AEAB73FCCB296AE"
+				"2CED3BFD890D7245"
+				"2C30A645E6D24965"
+			]
+			description: [
+				"Vous avez arraché leurs yeux aux plus terribles créatures de ce monde. La méthode est un peu barbare, mais votre professeur de magie martiale ne pourra que s'incliner devant cette prouesse dont peu sont capables."
+				""
+				"A présent, que comptez-vous faire de ces puissantes reliques ?"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:crafting_table"
+			id: "794ADFA0E3F4DCF4"
+			rewards: [{
+				id: "41AAB8BD8E1EC2F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Qu'allez-vous faire de tout ça ?"
+			tasks: [{
+				id: "36944D6B6554724E"
+				title: "Qu'allez-vous faire de tout ça ?"
+				type: "checkmark"
+			}]
+			title: "Sacrée collection !"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "7EDF2DD009FA9176"
+			invisible: true
+			rewards: [{
+				id: "392AA83241639F6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Ca sent le cochon grillé, non ?"
+			tasks: [{
+				id: "71EFA222B1FAAE1A"
+				item: "kubejs:nether_scroll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "0E2FA07DF137C281"
+			invisible: true
+			rewards: [{
+				id: "5DA5DED333B2BA9E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "On dirait des écailles de dragon"
+			tasks: [{
+				id: "14DCF0F6AFB0D513"
+				item: "kubejs:end_scroll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "295F9D2DF4730766"
+			invisible: true
+			rewards: [{
+				id: "231F20567220D788"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Il a l'air normal"
+			tasks: [{
+				id: "0A531AD01ED58350"
+				item: "kubejs:overworld_scroll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "13BA4A3C0B75891F"
+			invisible: true
+			rewards: [{
+				id: "63F1B08A2B7DB28D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "C'est comme regarder un steak cru"
+			tasks: [{
+				id: "5204B345E71CA9CC"
+				item: "kubejs:au_dela_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "18CF1BA3AF6910E1"
+			invisible: true
+			rewards: [{
+				id: "6C1381784DFFF15B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Est-ce qu'il est froid, ou humide ?"
+			tasks: [{
+				id: "0111226577F879FE"
+				item: "kubejs:noosphere_scroll"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "2B8F3D90032170CF"
+			invisible: true
+			rewards: [{
+				id: "2349DDBD18C37910"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Il était donc là !"
+			tasks: [{
+				id: "6EEAE13A8D518F4E"
+				item: "kubejs:deep_noosphere_scroll"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Ce parchemin semble avoir perdu toute sa magie dans le processus de création."
+				""
+				"Peut-être qu'en le copiant sur un nouveau parchemin, on pourrait s'en servir ?"
+			]
+			id: "3ECAAA9198F6BDFB"
+			invisible: true
+			rewards: [{
+				id: "63C32580BFBEB3CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Il a pas l'air normal"
+			tasks: [{
+				id: "0716AC7B3537A384"
+				item: "kubejs:overworld11_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "6CA68E4E16B30781"
+			invisible: true
+			rewards: [{
+				id: "6E7D72988ACE2F02"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6175C4D3FA219DF1"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "078606AB9C902AD5"
+			invisible: true
+			rewards: [{
+				id: "25F48EED6C455D10"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "???"
+			tasks: [{
+				id: "40E6590E865FE95F"
+				item: "kubejs:adelm_scroll"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["C'est avec une grande précaution que vous récupérez ces blocs dans la &omana pool&r. Vous craignez que le moindre faux mouvement suffise à libérer tout le mana contenu dans ces trésors avant que vous ayez pu les aligner pour déchirer le tissu de l'espace temps."]
+			id: "173EDD872B8A4848"
+			invisible: true
+			rewards: [{
+				id: "2E6F77B5E1307FA2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Attention à la marche"
+			tasks: [{
+				id: "41DCF97128DAEA16"
+				item: "kubejs:life_essence_block_oc"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Vous avez rêvé de ce livre cette nuit."
+				""
+				"Vous marchiez dans une tour renversée, observant les gens marcher la tête en bas, et une seule personne a levé les yeux vers vous, en vous addressant un regard plein d'amour et de tristesse. En observant ses cornes s'éloigner, votre coeur s'est serré sans que vous ne sachiez pourquoi."
+			]
+			id: "15DA2C382DDA5719"
+			invisible: true
+			rewards: [{
+				id: "3F2CABABF3EFA559"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "La nuit a été agitée"
+			tasks: [{
+				id: "3705228B7EBC45B9"
+				item: "occultism:book_of_binding_marid"
+				type: "item"
+			}]
+			title: "Call of Marid"
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "Journal"
+}

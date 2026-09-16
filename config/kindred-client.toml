@@ -1,0 +1,10 @@
+
+[hud]
+	#Horizontal offset (pixels) of the summon/dismiss hold bar and its label. 0 is centered; negative moves left, positive moves right.
+	#Range: -1000 ~ 1000
+	holdBarOffsetX = 0
+	#
+	#Vertical offset (pixels) of the summon/dismiss hold bar and its label. 0 sits just above the hotbar; negative moves up, positive moves down.
+	#Range: -1000 ~ 1000
+	holdBarOffsetY = 0
+

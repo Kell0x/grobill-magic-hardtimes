@@ -1,0 +1,30 @@
+
+#Seconds before an unanswered trade request expires.
+requestTimeoutSeconds = 60
+
+#Seconds before a player can send another request to the same target.
+tradeCooldownSeconds = 10
+
+#Maximum distance in blocks. Use -1.0 for no distance limit. If positive, players must be in the same dimension and within range.
+maxTradeDistance = 10
+
+#Allows trading across dimensions when no positive distance limit prevents it.
+allowCrossDimensionTrades = false
+
+#Seconds to wait after both players confirm their offers.
+countdownSeconds = 3
+
+#Writes completed trades to logs/securetrade.log.
+enableTradeLogging = true
+
+#Item IDs that cannot be traded.
+blacklistedItems = []
+
+#Dimension IDs where trading is allowed. Leave empty to allow all dimensions unless blocked.
+allowedDimensions = []
+
+#Dimension IDs where trading is blocked. Ignored if allowedDimensions is not empty.
+blockedDimensions =  []
+
+#Number of recent trade history entries shown by /trade history.
+maxHistoryEntries = 5

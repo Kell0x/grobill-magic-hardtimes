@@ -1,0 +1,518 @@
+
+["Master Toggles"]
+	#============================================================
+	#MASTER CONTROL - Use these for quick configuration
+	#============================================================
+	#BARE-BONES MODE: Disable all deep synergy features.
+	#Only mana conversion remains active.
+	#Perfect for simple integration or performance-critical servers.
+	bareBonesMode = false
+	#DEEP SYNERGY MASTER TOGGLE: Enable all 6 deep synergy stages.
+	#Disable this to turn off catalysts, channels, auras, events, corporea, and alfheim.
+	#Overrides individual stage toggles when set to false.
+	enableDeepSynergy = true
+
+["Mana System"]
+	#============================================================
+	#MANA UNIFICATION - Choose how Botania and ISS mana interact
+	#============================================================
+	#Mana unification mode:
+	#BOTANIA_PRIMARY - ISS spells consume Botania mana directly
+	#ISS_PRIMARY - Botania items grant ISS mana
+	#HYBRID - Both systems work together with conversion (default)
+	#SEPARATE - No conversion, dual-cost required
+	#DISABLED - No mana integration
+	#Allowed Values: BOTANIA_PRIMARY, ISS_PRIMARY, HYBRID, SEPARATE, DISABLED
+	manaUnificationMode = "HYBRID"
+	#How much Botania mana equals 1 ISS mana (default: 1000)
+	#Only used in HYBRID and ISS_PRIMARY modes
+	#Range: 100 ~ 10000
+	conversionRatio = 1000
+	#Botania mana an Elementium Scroll draws to cast without consuming itself.
+	#Scroll spells usually report 0 ISS mana cost, so this flat floor is what
+	#the scroll actually pays; if Botania can't cover it the scroll is consumed
+	#the vanilla single-use way. Raised to conversionRatio*issCost for the rare
+	#scroll whose spell does carry a mana cost.
+	#Range: 0 ~ 1000000
+	elementiumScrollManaCost = 10000
+	#Botania mana-cost discount a rune-enhanced scroll grants (0.15 = -15%).
+	#Scaled by the fused rune's tier: elemental runes x1, seasonal/thematic x1.5,
+	#Gaia/Pride/modded x2. The result is clamped to 50% and applied
+	#multiplicatively with every other discount, so no combination is free.
+	#Set to 0 to disable the rune-scroll fusion bonus entirely; the recipe still
+	#works but produces a purely cosmetic scroll.
+	#Before 1.10.0 the fusion recipe consumed a rune and wrote NBT that nothing
+	#read, so the upgrade had no mechanical effect at all.
+	#Range: 0.0 ~ 0.5
+	runeScrollManaDiscount = 0.15
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Allow converting ISS mana back to Botania mana
+	#Only used in HYBRID mode
+	bidirectionalConversion = false
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#How much ISS mana equals 1 Botania mana for reverse conversion
+	#Only used when bidirectionalConversion is true
+	#Range: 100 ~ 10000
+	reverseConversionRatio = 800
+	#Enable Botanical spells that consume both mana types
+	#Forced to true in SEPARATE mode, ignored in BOTANIA_PRIMARY and ISS_PRIMARY
+	enableDualCost = true
+	#Max ISS mana in Spell Reservoir augmented pools
+	#Range: 500 ~ 5000
+	reservoirCapacity = 1000
+	#Mana transfer rate per second from Botanical Focus (Botania mana)
+	#Range: 100 ~ 10000
+	manaTransferRate = 1000
+	#Max ISS mana stored in a Mana Conduit block
+	#Range: 100 ~ 5000
+	manaConduitCapacity = 500
+	#Botania mana drained per tick cycle from an adjacent mana pool
+	#Range: 500 ~ 50000
+	manaConduitConversionRate = 5000
+	#Radius (in blocks) within which the Mana Conduit distributes ISS mana to players
+	#Range: 1 ~ 32
+	manaConduitRadius = 8
+	#ISS mana transferred per second from functional blocks (Conduit, Reservoir) to nearby players
+	#Range: 1 ~ 100
+	blockEntityTransferRate = 5
+	#Allow spells/mechanics to draw Botania mana from carried and equipped mana items
+	#(Mana Tablet, Mana Ring, Greater Band of Mana, Mana Mirror, our own mana items, etc.).
+	#Mana is aggregated across ALL such sources, matching the Botania mana HUD.
+	#Disable to force pool-only behavior.
+	enableInventoryManaSources = true
+	#Allow the Mana Mirror to act as a remote mana source for spells/mechanics.
+	#The Mirror forwards to its bound pool via Botania's ManaItem API.
+	#Requires enableInventoryManaSources. When false, the Mana Mirror is skipped.
+	enableManaMirrorSupport = true
+	#Allow spells to draw Botania mana directly from nearby mana pools
+	#When enabled, spells check nearby pools as a fallback if inventory mana is insufficient
+	#(this is the 'enableNearbyManaPoolFallback' behavior)
+	enableManaPoolAccess = true
+	#Radius to search for Botania mana pools when drawing mana for spells
+	#(this is the 'manaSourceSearchRadius' for the nearby-pool fallback)
+	#Range: 4 ~ 16
+	manaPoolSearchRadius = 8
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Cross-bridge mana resource ordering. Sources are tried in
+	#list order; absent mods are skipped. Tokens: botania, ars, iss.
+	#("lp" and "aura" are also accepted as forward-compat placeholders
+	#but are currently inactive and always skipped.)
+	#Default: ["botania", "ars", "iss"] — Botania pays first, then
+	#Ars 'n Spells if loaded, then ISS as the safety-net fallback.
+	manaPriorityChain = ["botania", "ars", "iss"]
+
+[Spells]
+	#Damage multiplier for Botanical school spells
+	#Range: 0.5 ~ 2.0
+	botanicalPowerMultiplier = 1.0
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Enable the Botanical spell school
+	enableBotanicalSchool = true
+	#Cooldown multiplier for Botanical spells
+	#Range: 0.5 ~ 2.0
+	spellCooldownMultiplier = 1.0
+	#Emit Iron's Botany-signature particles on spell cast (petal/botanical_burst/mana_transfer layered onto vanilla VFX). Server-authoritative.
+	enableSpellParticles = true
+	#Emit ambient particles from active Spell Reservoir and Mana Conduit blocks.
+	enableBlockAmbientParticles = true
+
+[Equipment]
+
+	#============================================================
+	#EQUIPMENT - Stat customization for all botanical weapons and armor
+	#============================================================
+	[Equipment."Terrasteel Spell Blade"]
+		#Spell power bonus from Terrasteel Spell Blade (0.25 = +25%)
+		#Range: 0.0 ~ 1.0
+		terrasteelBladeSpellPower = 0.25
+		#Max mana bonus from Terrasteel Spell Blade
+		#Range: 0 ~ 1000
+		terrasteelBladeMaxMana = 200
+		#Mana cost reduction from Terrasteel Spell Blade (0.2 = -20%)
+		#Range: 0.0 ~ 0.5
+		terrasteelBladeCostReduction = 0.2
+		#Botania mana generated per qualifying melee hit with Terrasteel Spell Blade
+		#(a.k.a. spellBladeManaGeneration). Only real, damage-dealing hits qualify,
+		#and generation is rate-limited by spellBladeManaGenerationCooldown.
+		#Range: 0 ~ 50000
+		terrasteelBladeManaPerHit = 5000
+		#Minimum ticks between Terrasteel Spell Blade mana-generation procs
+		#(a.k.a. spellBladeManaGenerationCooldown). Prevents autoclicker / high-attack-speed
+		#farming. 20 ticks = 1 second. Set to 0 to allow generation on every hit.
+		#This cooldown also gates the Elementium / Gaia Mage Swords.
+		#Range: 0 ~ 200
+		terrasteelBladeManaCooldown = 10
+
+	[Equipment."Elementium Mage Sword"]
+		#Spell power bonus from Elementium Mage Sword (0.18 = +18%).
+		#Mid melee-caster rung, below the Terrasteel Spell Blade.
+		#Range: 0.0 ~ 1.0
+		elementiumSwordSpellPower = 0.18
+		#Max mana bonus from Elementium Mage Sword
+		#Range: 0 ~ 1000
+		elementiumSwordMaxMana = 150
+		#Cooldown reduction from Elementium Mage Sword (0.12 = -12%)
+		#Range: 0.0 ~ 0.5
+		elementiumSwordCooldownReduction = 0.12
+		#Botania mana generated per qualifying melee hit with Elementium Mage Sword
+		#Range: 0 ~ 50000
+		elementiumSwordManaPerHit = 3500
+
+	[Equipment."Gaia Mage Sword"]
+		#Spell power bonus from Gaia Mage Sword (0.38 = +38%).
+		#Endgame melee caster — tops the melee ladder, above the Terrasteel Spell Blade.
+		#Range: 0.0 ~ 1.0
+		gaiaSwordSpellPower = 0.38
+		#Max mana bonus from Gaia Mage Sword
+		#Range: 0 ~ 1000
+		gaiaSwordMaxMana = 250
+		#Cooldown reduction from Gaia Mage Sword (0.28 = -28%)
+		#Range: 0.0 ~ 0.5
+		gaiaSwordCooldownReduction = 0.28
+		#Botania mana generated per qualifying melee hit with Gaia Mage Sword
+		#Range: 0 ~ 50000
+		gaiaSwordManaPerHit = 7000
+
+	[Equipment."Livingwood Staff"]
+		#Botanical spell power bonus from Livingwood Staff (0.1 = +10%)
+		#Range: 0.0 ~ 1.0
+		livingwoodStaffSpellPower = 0.1
+		#Botania mana storage capacity of Livingwood Staff
+		#Range: 100000 ~ 2000000
+		livingwoodStaffManaCapacity = 500000
+
+	[Equipment."Dreamwood Scepter"]
+		#Botanical spell power bonus from Dreamwood Scepter (0.2 = +20%)
+		#Range: 0.0 ~ 1.0
+		dreamwoodScepterSpellPower = 0.2
+		#Percentage of ISS mana cost converted to Botania mana (1.0 = 100%)
+		#Range: 0.1 ~ 1.0
+		dreamwoodConversionPercent = 1.0
+
+	[Equipment."Elementium Wand"]
+		#Elementium rung of the wand ladder: a real ISS caster (StaffItem) with
+		#Alfheim 'Elven Favor' efficiency.
+		#Spell power bonus from Elementium Wand (0.18 = +18%)
+		#Range: 0.0 ~ 1.0
+		elementiumWandSpellPower = 0.18
+		#Cooldown reduction from Elementium Wand (0.10 = -10%)
+		#Range: 0.0 ~ 0.5
+		elementiumWandCooldownReduction = 0.1
+		#Mana efficiency bonus from Elementium Wand (0.10)
+		#Range: 0.0 ~ 1.0
+		elementiumWandManaEfficiency = 0.1
+		#Elven Favor: chance (0.0-1.0) on cast to refund part of the spell's mana cost while holding the wand
+		#Range: 0.0 ~ 1.0
+		elementiumWandRefundChance = 0.15
+		#Elven Favor: fraction of the spell's mana cost refunded when it procs (0.25 = 25%)
+		#Range: 0.0 ~ 1.0
+		elementiumWandRefundPercent = 0.25
+
+	[Equipment."Terrasteel Wand"]
+		#Spell power bonus from Terrasteel Wand (0.28 = +28%).
+		#Late Botania caster tier — strong ranged casting, rivals the Spell Blade.
+		#Range: 0.0 ~ 1.0
+		terrasteelWandSpellPower = 0.28
+		#Cooldown reduction from Terrasteel Wand (0.15 = -15%)
+		#Range: 0.0 ~ 0.5
+		terrasteelWandCooldownReduction = 0.15
+		#Mana efficiency bonus from Terrasteel Wand (0.12)
+		#Range: 0.0 ~ 1.0
+		terrasteelWandManaEfficiency = 0.12
+
+	[Equipment."Gaia Spirit Wand"]
+		#Spell power bonus from Gaia Wand (0.4 = +40%).
+		#Endgame best pure-caster wand — must out-class the cheaper Terrasteel tiers.
+		#Range: 0.0 ~ 1.0
+		gaiaWandSpellPower = 0.4
+		#Cooldown reduction from Gaia Wand (0.25 = -25%)
+		#Range: 0.0 ~ 0.5
+		gaiaWandCooldownReduction = 0.25
+		#Mana efficiency bonus from Gaia Wand (0.15)
+		#Range: 0.0 ~ 1.0
+		gaiaWandManaEfficiency = 0.15
+
+	[Equipment."Mage Armor"]
+		#Entry -> endgame mage armor ladder: Manasteel -> Elementium -> Terrasteel -> Gaia.
+		#Values are PER PIECE; a full set is 4x these. Tune for your modpack's power curve.
+		#Spell power bonus per piece of Manasteel Wizard Armor (entry tier).
+		#Nerfed from 0.15 -> 0.05 so it no longer trivializes early progression.
+		#Range: 0.0 ~ 1.0
+		manasteelArmorSpellPower = 0.05
+		#Max mana bonus per piece of Manasteel Wizard Armor (nerfed from 150 -> 50)
+		#Range: 0 ~ 500
+		manasteelArmorMaxMana = 50
+		#Spell power bonus per piece of Elementium Mage Armor (mid tier)
+		#Range: 0.0 ~ 1.0
+		elementiumArmorSpellPower = 0.08
+		#Max mana bonus per piece of Elementium Mage Armor
+		#Range: 0 ~ 1000
+		elementiumArmorMaxMana = 75
+		#Mana efficiency bonus per piece of Elementium Mage Armor
+		#Range: 0.0 ~ 1.0
+		elementiumArmorManaEfficiency = 0.03
+		#Spell power bonus per piece of Terrasteel Mage Armor (late tier)
+		#Range: 0.0 ~ 1.0
+		terrasteelArmorSpellPower = 0.12
+		#Max mana bonus per piece of Terrasteel Mage Armor
+		#Range: 0 ~ 1000
+		terrasteelArmorMaxMana = 100
+		#Cooldown reduction per piece of Terrasteel Mage Armor (0.03 = -3%)
+		#Range: 0.0 ~ 0.25
+		terrasteelArmorCooldownReduction = 0.03
+		#Spell power bonus per piece of Gaia Mage Armor (endgame tier)
+		#Range: 0.0 ~ 1.0
+		gaiaArmorSpellPower = 0.15
+		#Max mana bonus per piece of Gaia Mage Armor
+		#Range: 0 ~ 1000
+		gaiaArmorMaxMana = 125
+		#Cooldown reduction per piece of Gaia Mage Armor (0.04 = -4%)
+		#Range: 0.0 ~ 0.25
+		gaiaArmorCooldownReduction = 0.04
+
+	[Equipment."Mage Armor Set Bonuses"]
+		#Full Manasteel Wizard set: Botania mana-cost discount on Botanical spell casts (0.05 = -5%)
+		#Range: 0.0 ~ 0.5
+		manasteelSetCostDiscount = 0.05
+		#Full Elementium Mage set: chance (0.0-1.0) to refund part of a spell's mana cost
+		#Range: 0.0 ~ 1.0
+		elementiumSetRefundChance = 0.1
+		#Full Terrasteel Mage set: incoming damage reduction while above the mana threshold (0.20 = -20%)
+		#Range: 0.0 ~ 0.75
+		terrasteelSetDamageReduction = 0.2
+		#Full Terrasteel Mage set: fraction of max ISS mana required for the damage-reduction bonus
+		#Range: 0.0 ~ 1.0
+		terrasteelSetManaThreshold = 0.5
+		#Full Gaia Mage set (endgame Mana Shield): fraction of incoming damage absorbed by spending Botania mana
+		#This is the strong 50% absorb formerly on Manasteel, now gated behind the Gaia tier.
+		#Range: 0.0 ~ 0.9
+		gaiaSetAbsorbPercent = 0.5
+
+	[Equipment."Mana Network Capacities"]
+		#Max Botania mana each mana-network item stores (Spark-fillable, HUD-aggregated),
+		#plus the Arcane Mana Altar's pool cap. Previously hardcoded.
+		#Dreamwood Scepter mana capacity
+		#Range: 0 ~ 100000000
+		dreamwoodScepterManaCapacity = 250000
+		#Elementium Wand mana capacity
+		#Range: 0 ~ 100000000
+		elementiumWandManaCapacity = 250000
+		#Terrasteel Wand mana capacity
+		#Range: 0 ~ 100000000
+		terrasteelWandManaCapacity = 500000
+		#Gaia Spirit Wand mana capacity
+		#Range: 0 ~ 100000000
+		gaiaWandManaCapacity = 1000000
+		#Manasteel Staff mana capacity
+		#Range: 0 ~ 100000000
+		manasteelStaffManaCapacity = 50000
+		#Terrasteel Spellbook mana capacity
+		#Range: 0 ~ 100000000
+		terrasteelSpellbookManaCapacity = 200000
+		#Arcane Codex mana capacity
+		#Range: 0 ~ 100000000
+		arcaneCodexManaCapacity = 500000
+		#Mana Reservoir Ring mana capacity
+		#Range: 0 ~ 100000000
+		manaReservoirRingManaCapacity = 200000
+		#Botanical Focus mana capacity
+		#Range: 0 ~ 100000000
+		botanicalFocusManaCapacity = 50000
+		#Botanical Ring mana capacity
+		#Range: 0 ~ 100000000
+		botanicalRingManaCapacity = 25000
+		#Arcane Mana Altar pool capacity
+		#Range: 0 ~ 100000000
+		arcaneAltarMaxMana = 1000000
+
+["Spell Mechanics"]
+	#============================================================
+	#SPELL MECHANICS - Fine-tune individual spell behaviors
+	#============================================================
+	#Enable Mana Rebirth death prevention (totem-like mechanic)
+	manaRebirthDeathPrevention = true
+	#Health percentage on revive (0.3 = 30% of max HP)
+	#Range: 0.1 ~ 1.0
+	manaRebirthReviveHealth = 0.3
+	#Botania mana consumed on death prevention
+	#Range: 10000 ~ 1000000
+	manaRebirthReviveManaCost = 100000
+	#Base shield HP for Flower Shield spell
+	#Range: 5 ~ 100
+	flowerShieldBaseHp = 20
+	#Additional shield HP per spell level
+	#Range: 1 ~ 20
+	flowerShieldHpPerLevel = 5
+	#Use full immobilization (Slowness 255) instead of Slowness IV
+	livingRootImmobilize = true
+	#Scale Runic Infusion effects based on runes in inventory
+	runicInfusionRuneScaling = true
+
+["Per-Spell Multipliers"]
+	#============================================================
+	#PER-SPELL TUNING - Power and cooldown multipliers for each spell
+	#============================================================
+	#Mana Bloom power multiplier
+	#Range: 0.1 ~ 5.0
+	manaBloomPower = 1.0
+	#Mana Bloom cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	manaBloomCooldown = 1.0
+	#Botanical Burst power multiplier
+	#Range: 0.1 ~ 5.0
+	botanicalBurstPower = 1.0
+	#Botanical Burst cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	botanicalBurstCooldown = 1.0
+	#Flower Shield power multiplier
+	#Range: 0.1 ~ 5.0
+	flowerShieldPower = 1.0
+	#Flower Shield cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	flowerShieldCooldown = 1.0
+	#Living Root Grasp power multiplier
+	#Range: 0.1 ~ 5.0
+	livingRootGraspPower = 1.0
+	#Living Root Grasp cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	livingRootGraspCooldown = 1.0
+	#Spark Swarm power multiplier
+	#Range: 0.1 ~ 5.0
+	sparkSwarmPower = 1.0
+	#Spark Swarm cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	sparkSwarmCooldown = 1.0
+	#Runic Infusion power multiplier
+	#Range: 0.1 ~ 5.0
+	runicInfusionPower = 1.0
+	#Runic Infusion cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	runicInfusionCooldown = 1.0
+	#Petal Storm power multiplier
+	#Range: 0.1 ~ 5.0
+	petalStormPower = 1.0
+	#Petal Storm cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	petalStormCooldown = 1.0
+	#Gaia's Wrath power multiplier
+	#Range: 0.1 ~ 5.0
+	gaiaWrathPower = 1.0
+	#Gaia's Wrath cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	gaiaWrathCooldown = 1.0
+	#Mana Rebirth power multiplier
+	#Range: 0.1 ~ 5.0
+	manaRebirthPower = 1.0
+	#Mana Rebirth cooldown multiplier
+	#Range: 0.1 ~ 5.0
+	manaRebirthCooldown = 1.0
+
+[Balance]
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Enable cross-mod loot injection
+	enableCrossLoot = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Effectiveness multiplier for Botanical Upgrade Orbs
+	#Range: 0.5 ~ 2.0
+	upgradeOrbEffectiveness = 1.0
+	#Inject Iron's Botany items into vanilla structure chests
+	#Adds Spell Petals to villages, Botanical Crystals to mineshafts, etc.
+	enableVanillaLootInjection = true
+
+["Casting Channels"]
+	#Stage 2: Hardware vs Software - Casting performance profiles
+	#Enable casting channel system
+	#Disabled in bare-bones mode
+	enableCastingChannels = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Global multiplier for casting channel effects
+	#Range: 0.1 ~ 5.0
+	channelPowerMultiplier = 1.0
+
+["Spell Catalysts"]
+	#Stage 1: Spell Augmentation - Items modify spell behavior
+	#Enable Botania items as spell catalysts
+	#Disabled in bare-bones mode
+	enableSpellCatalysts = true
+	#Chance (0.0-1.0) that catalyst is consumed on spell cast
+	#Range: 0.0 ~ 1.0
+	catalystConsumptionChance = 0.0
+	#Durability damage to catalyst items per spell cast (0 = no damage)
+	#Range: 0 ~ 100
+	catalystDurabilityDamage = 0
+	#Allow multiple catalysts to stack effects
+	allowMultipleCatalysts = true
+	#Maximum number of catalysts that can affect one spell
+	#Range: 1 ~ 10
+	maxCatalystsPerSpell = 3
+	#Global multiplier for catalyst effect strength
+	#Range: 0.1 ~ 5.0
+	catalystPowerMultiplier = 1.0
+
+["Flower Auras"]
+	#Enable functional flowers as spell enhancers
+	enableFlowerAuras = true
+	#Multiplier for flower aura ranges
+	#Range: 0.1 ~ 5.0
+	flowerAuraRangeMultiplier = 1.0
+	#Multiplier for flower aura effect strength
+	#Range: 0.1 ~ 5.0
+	flowerAuraStrengthMultiplier = 1.0
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Allow multiple flower auras to stack
+	allowAuraStacking = true
+	#Maximum number of flower auras that can affect one spell
+	#Range: 1 ~ 20
+	maxActiveAuras = 5
+	#Show particle effects for active auras
+	showAuraParticles = true
+
+["Spell-Triggered Mana Events"]
+	#EXPERIMENTAL: Enable spells to affect Botania mana networks. Most effects are not yet fully functional except Water Fill.
+	enableSpellManaEvents = false
+	#Duration of spell-triggered mana effects (ticks)
+	#Range: 20 ~ 6000
+	manaEventDuration = 200
+	#Intensity multiplier for mana network effects
+	#Range: 0.1 ~ 5.0
+	manaEventIntensity = 1.0
+	#Radius for spell-triggered mana effects
+	#Range: 1 ~ 32
+	manaEventRadius = 8
+
+["Corporea Logistics"]
+	#Enable Corporea integration for spell logistics
+	enableCorporeaLogistics = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Automatically request spell reagents from Corporea
+	autoRequestReagents = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Radius to search for Corporea Index
+	#Range: 4 ~ 64
+	corporeaSearchRadius = 16
+
+["Alfheim Integration"]
+	#Enable spell power boost in Alfheim dimension
+	enableAlfheimBoost = true
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Power multiplier for spells cast in Alfheim
+	#Range: 1.0 ~ 5.0
+	alfheimPowerMultiplier = 1.5
+	#[NOT IMPLEMENTED in 1.10.0 - this setting has no effect]
+	#See docs/SYSTEM-DECISIONS-1.10.0.md for why, and what replaced it.
+	#Enable dual-school scrolls crafted in Alfheim
+	enableDualSchoolScrolls = true
+	#Enable spellbook attunement in Alfheim
+	enableSpellbookAttunement = true
+

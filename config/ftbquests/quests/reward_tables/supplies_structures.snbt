@@ -1,0 +1,10 @@
+{
+	id: "29F89FD298C2381F"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "slimcolonies:supplychestdeployer" }
+		{ item: "slimcolonies:supplycampdeployer" }
+	]
+	title: "supplies_structures"
+}

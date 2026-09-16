@@ -1,0 +1,149 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_adv"
+	group: ""
+	id: "3452E591BCBFCCBE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2981C69E96C1227E"
+			invisible: true
+			tasks: [{
+				id: "1C8067B309668F53"
+				item: "kubejs:adelm_scroll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFF5B23DDF5474F"]
+			id: "461ADF0EB4802545"
+			invisible: true
+			rewards: [{
+				advancement: "adelm:adelm_ars"
+				auto: "enabled"
+				criterion: ""
+				id: "33E95E1A7F1D9B49"
+				type: "advancement"
+			}]
+			tasks: [{
+				dimension: "adelm:adelm"
+				id: "156788C3D9E8F1FF"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2981C69E96C1227E"]
+			id: "0AFF5B23DDF5474F"
+			invisible: true
+			tasks: [{
+				id: "09804F52F58A7E05"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "5F5D0C6590D7F17F"
+			invisible: true
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "21087D3126D7822E"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "0DDCF01B6F00FD83"
+			invisible: true
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "3AF776F3484E27CC"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "4782E12470A533A9"
+			invisible: true
+			tasks: [
+				{
+					id: "2A330220AB589169"
+					item: "minecraft:amethyst_shard"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A0B0982CCEB6B52"
+					item: "hexcasting:amethyst_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "3C64FFA17FF9437A"
+			invisible: true
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "4318831B8FDD082E"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "2B0E5496D0D3301A"
+			invisible: true
+			tasks: [{
+				id: "6573EB04CBD4DAE2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "7C59B06B9CF4B3CB"
+			invisible: true
+			tasks: [{
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				id: "5BC365850F19B0E3"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "216033A1DA5F6CA8"
+			invisible: true
+			tasks: [{
+				id: "588620394FBD26C9"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "ars_adv"
+}
