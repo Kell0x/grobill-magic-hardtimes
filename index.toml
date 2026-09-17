@@ -578,7 +578,7 @@ hash = "3a8589564b872097e7954e58dfa1c5e52720791881b10fc7b2f2946dc7fdb895"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fe5767234994255ed94b69cb491faca33cb8506da22947563e3dadf77f095c16"
+hash = "bb7772bc9999bb8c951e2815236d7109c1bd9bb16b44323d4903694620a60750"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -614,7 +614,7 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_adv.snbt"
-hash = "e0ccccf0fca8628d278f3970d61aae3aee9fb778071878b2f44b4975a34f89f0"
+hash = "f499bcad472ec2a70f690aa76b22855a5bc2093c9ef1851cfa6d94f5023bd372"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
@@ -630,7 +630,7 @@ hash = "66411ff7f64ea7e74538c0c667f138ed14123f20791ea6489e1c8deb2cbd2a5f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/qui_tesvous.snbt"
-hash = "1f1d303610dcdc47b0bee0469f547e0f0fff0efcb5317c492efbfa1a88a2ee86"
+hash = "7bfea92fc021d6c83236dd8d4e2e7baea2a19ffdf568c2397f46a60e4a3e9d34"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rentrez.snbt"
@@ -898,7 +898,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "97a1ce35144c8eb3400b929820282d1f418d776515000ea0ff8eb43d12a5dc26"
+hash = "89c1635217a784f2523296080ce21e0fa9bc2ad65204c7a77636bb9e27538e6f"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2835,6 +2835,10 @@ hash = "747e2f3c203f8c294887fe400184ad48c02df008e1d69ad7f7d01809853a7ba2"
 [[files]]
 file = "servermods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar"
 hash = "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f"
+
+[[files]]
+file = "servers.dat"
+hash = "c855ee3b16644ac30cf2a010fb65dc39bd00e0d86a2f21f85e892e7a40d99f41"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.zip"

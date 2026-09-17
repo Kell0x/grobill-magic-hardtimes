@@ -144,6 +144,17 @@
 			x: -3.5d
 			y: 0.0d
 		}
+		{
+			id: "787F6399FC665E88"
+			tasks: [{
+				id: "225E932156FD8AFD"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 50000
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
 	]
 	title: "ars_adv"
 }

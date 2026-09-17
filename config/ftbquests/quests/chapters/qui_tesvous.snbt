@@ -76,6 +76,7 @@
 			dependencies: [
 				"5B8192F32A3C9B2F"
 				"17A3C09F3E6AFB09"
+				"4A6BAF6DB06954C0"
 			]
 			dependency_requirement: "one_completed"
 			description: ["Votre caractère est une part importante de vous, mais quelle était votre majeure à l'Académie D'Entre Les Mondes ?"]
@@ -167,6 +168,7 @@
 				"05CF177610C4B69C"
 				"648E52E0C86168F3"
 				"5A7880AACF2FCF21"
+				"3162EA0FE4E80A13"
 			]
 			dependency_requirement: "one_completed"
 			description: ["Vous n'en seriez pas là sans un hobby occupant plus de temps que vos études, si ?"]
@@ -224,7 +226,7 @@
 			}]
 			title: "Elever des corbaux en cachette"
 			x: 7.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["168BE89B3471BCA5"]
@@ -232,10 +234,10 @@
 			hide_until_deps_complete: true
 			id: "172B7C60F8CCDD11"
 			rewards: [{
-				id: "07A84A8A4BB1A28F"
+				id: "68068067520B5FFC"
 				item: {
 					Count: 1
-					id: "hexerei:willow_broom"
+					id: "hexerei:witch_hazel_broom"
 					tag: { }
 				}
 				type: "item"
@@ -247,13 +249,14 @@
 			}]
 			title: "Les courses illégales"
 			x: 7.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"2BC478744A9F19BB"
 				"172B7C60F8CCDD11"
 				"63D73773397C0E96"
+				"5EB2A98EB0D9BE06"
 			]
 			dependency_requirement: "one_completed"
 			description: [
@@ -391,6 +394,7 @@
 				"25094688BDB99166"
 				"17C5F2CF29D1F5BD"
 				"125E8AF943DA15EE"
+				"3C6FD844AFC8A788"
 			]
 			dependency_requirement: "one_completed"
 			description: ["Vous avez sûrement un objet que vous ne posez jamais nulle part, un outil ou une babiole qui vous sert tous les jours ?"]
@@ -472,6 +476,7 @@
 				"061EA7B13D51322D"
 				"416533C0349DEA26"
 				"087E1AD8E4FA7DB7"
+				"7BF35A412FE85220"
 			]
 			dependency_requirement: "one_completed"
 			hide_until_deps_complete: true
@@ -488,6 +493,115 @@
 			}]
 			title: "Merci pour ces précisions"
 			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"166C8C8A80F3E5B5"
+				"787F6399FC665E88"
+			]
+			description: ["Vous ne savez pas choisir, et dans la vie quand on ne sait pas choisir on n'a souvent rien."]
+			hide_until_deps_complete: true
+			id: "4A6BAF6DB06954C0"
+			subtitle: "Et allez, ça commence"
+			tasks: [{
+				id: "08EF5161E11D3E85"
+				type: "checkmark"
+			}]
+			title: "Indécis"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7D3D38CD2A19509C"
+				"4A6BAF6DB06954C0"
+			]
+			description: ["Sérieusement, comment vous êtes arrivé là ?"]
+			hide_until_deps_complete: true
+			id: "3162EA0FE4E80A13"
+			subtitle: "Une majeure ?"
+			tasks: [{
+				id: "02A207657D9A2598"
+				type: "checkmark"
+			}]
+			title: "Comment vous dites ?"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"168BE89B3471BCA5"
+				"3162EA0FE4E80A13"
+			]
+			description: ["Finalement vous êtes aussi chiant que vous en aviez l'air, il ne faut pas vous étonner qu'on vous ait mis dehors."]
+			hide_until_deps_complete: true
+			id: "5EB2A98EB0D9BE06"
+			subtitle: "Ca commence à devenir redondant"
+			tasks: [{
+				id: "0E003B663479D84E"
+				type: "checkmark"
+			}]
+			title: "Rien de spécial"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EB2A98EB0D9BE06"]
+			description: ["La vie ne fait pas toujours de cadeaux, en l'occurrence vos parents non plus."]
+			hide_until_deps_complete: true
+			id: "3C6FD844AFC8A788"
+			subtitle: "Seul un jour, seul toujours"
+			tasks: [{
+				id: "7DFABE3224273996"
+				type: "checkmark"
+			}]
+			title: "Aucun"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"18C81D9CFB540775"
+				"3C6FD844AFC8A788"
+			]
+			description: ["Décidément, vous n'irez pas loin dans la vie..."]
+			hide_until_deps_complete: true
+			id: "7BF35A412FE85220"
+			subtitle: "Et oui, c'est emmerdant"
+			tasks: [{
+				id: "535D06348C645D97"
+				type: "checkmark"
+			}]
+			title: "Vos poches sont vides"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3FC5AC5DF7FF6F78"
+				"7BF35A412FE85220"
+			]
+			hide_until_deps_complete: true
+			id: "6C2463138C551B71"
+			rewards: [{
+				id: "5163AFCB34C074EC"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Take this"
+			tasks: [{
+				id: "74F34133A4A5F0EF"
+				type: "checkmark"
+			}]
+			title: "It's dangerous to go alone"
+			x: 13.0d
 			y: 0.0d
 		}
 	]
