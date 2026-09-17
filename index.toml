@@ -578,7 +578,7 @@ hash = "3a8589564b872097e7954e58dfa1c5e52720791881b10fc7b2f2946dc7fdb895"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "1fbe335fc3c1cf7b1d8602ea1417df85195dd3501c72c7b36c348ca92e199660"
+hash = "fe5767234994255ed94b69cb491faca33cb8506da22947563e3dadf77f095c16"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -898,23 +898,11 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "4a6aee4893895c7f70655fec32c3b2a7572e8662f6f0696755b7be73488fbe95"
-
-[[files]]
-file = "config/openloader/adelm/pack.mcmeta"
-hash = "b35aa0d7ee37ee8fcb41b1ad6b9d3d8aaaae8400db9b41cb09ebadd58b6b9648"
+hash = "97a1ce35144c8eb3400b929820282d1f418d776515000ea0ff8eb43d12a5dc26"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
-
-[[files]]
-file = "config/openloader/death dimension/pack.mcmeta"
-hash = "388664f247e906a5639cef17cd9358c9a92f89d327809f3c9eb39f1d75764c72"
-
-[[files]]
-file = "config/openloader/ender_guardian_void_eye_datapack/pack.mcmeta"
-hash = "41fc855aad62c6c38da36beb290489af58a7964fee398ae3154a6606003a16e7"
 
 [[files]]
 file = "config/patchouli-client.toml"
