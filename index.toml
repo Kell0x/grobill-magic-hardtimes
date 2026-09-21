@@ -546,7 +546,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "2d6b0cc746a7524c55237472e3186f85357104c5c3a19a10defb66f6112bf778"
+hash = "6951b03595a2836cc3b758643573de8683ebd3f3f54218d806fd09f8c74bc79f"
 
 [[files]]
 file = "config/emi_loot_config.toml"
@@ -578,7 +578,7 @@ hash = "3a8589564b872097e7954e58dfa1c5e52720791881b10fc7b2f2946dc7fdb895"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "bb7772bc9999bb8c951e2815236d7109c1bd9bb16b44323d4903694620a60750"
+hash = "0b96c65439577163f25ce40d9adb3927b3f0e0ec3488b9b9cbc73da6dd31eb0a"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -898,7 +898,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "89c1635217a784f2523296080ce21e0fa9bc2ad65204c7a77636bb9e27538e6f"
+hash = "00cffb9f73a3df2028b91094611133b18a0b39cbdd292224936a7e430a1c949b"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -1154,7 +1154,7 @@ hash = "1aab6f51a20653f0e3793cfc3e278828d0a1e0be1a2c22bf80b6fc054b08df6f"
 
 [[files]]
 file = "config/roadweaver/structure_cache.json"
-hash = "8fb373ae113cec340b809a34318761e4433daba3bcb2fecdfd07d49ac32b0b2a"
+hash = "f73cb3d8f4e8a47d25b4221735d9f3ccc897136edb7f0dd8523ba7a3c2c494a8"
 
 [[files]]
 file = "config/roadweaver/structure_selection.json"
@@ -1441,6 +1441,10 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
+file = "crash-reports/crash-2026-09-20_22.25.53-server.txt"
+hash = "53cae6e80b0cbcd9b4dc48e551e7c7ca7015f6a2995bbbb0933b59a671421876"
+
+[[files]]
 file = "icon.png"
 hash = "a81f63b0a9831939d5f117848052adc793e398cb3ef66defc86de74174ba95f6"
 
@@ -1553,6 +1557,10 @@ file = "kubejs/assets/kubejs/textures/item/bloodied_wedding_ring.png"
 hash = "2e219abf2a7f256ad9365e693d2ddd564880339edbd12695616766e8bef36025"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/devil_stick.png"
+hash = "22fa0a451f0f4b7fdc2cd1499736db0db85bc11c25e850d5103251ff8370ddb7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/pov_interplanaire.png"
 hash = "0e7533bce398ffee6635f8f9f532ddc288a0d276924ef9b1f467d4eaae15afc7"
 
@@ -1563,6 +1571,14 @@ hash = "5cd9a1c6afc1ba448d98293e77ab71ba9985345dc677d573f925dde8dc1dead2"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/scroll_transplanaire.png"
 hash = "2d8d6072e7bae40def0f7682ed162fcd7ff0be80152e5e9fc4d0df651b046472"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/mob_effect/devil_stick_effect.png"
+hash = "593eab420ff8a57d67c1f04f65e3aec21a3822f093e234665cc52c1fb01803cc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/mob_effect/pacified_effect.png"
+hash = "593eab420ff8a57d67c1f04f65e3aec21a3822f093e234665cc52c1fb01803cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/adelm_portal.png"
@@ -1626,7 +1642,7 @@ hash = "04f1dbce492598d5824fd749b902fb0bb97a318b40d189da29225b422180e98c"
 
 [[files]]
 file = "kubejs/server_scripts/example.js"
-hash = "a19b7c81a150bd965b153ded9c45ee7649eaad9e10d0a5ec1d662e7b15ceadb2"
+hash = "255179ac927d0942eb9a624f1dedc8c9768cd9a8b38963ff08693056406cee07"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
@@ -1642,7 +1658,7 @@ hash = "bb3ef00f215b675573a917e0ee80a020490c326d3991b04c6a4983517e9d6fc8"
 
 [[files]]
 file = "kubejs/startup_scripts/botania.js"
-hash = "f0c169f225fd6a4568e029a7abb1103e1adbbb94ee4487210656ce6340efea52"
+hash = "b68b7a1324d5a97721a20b974f7404ed4e8eec0f2b52cf549063737f8ec73a52"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
