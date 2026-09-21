@@ -609,66 +609,6 @@ file = "config/forge-client.toml"
 hash = "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ars_adv.snbt"
-hash = "f499bcad472ec2a70f690aa76b22855a5bc2093c9ef1851cfa6d94f5023bd372"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "ffb22d24aefd3737fb4bfacd6addad118f7a6ad15fc7a3e6b1b9ba1ffe84c31e"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/diplmes.snbt"
-hash = "fee808355e38b4e06db97b758cd9d765fb310b874a64ad53dc322a1ad6b64daf"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/minecards.snbt"
-hash = "66411ff7f64ea7e74538c0c667f138ed14123f20791ea6489e1c8deb2cbd2a5f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/qui_tesvous.snbt"
-hash = "7bfea92fc021d6c83236dd8d4e2e7baea2a19ffdf568c2397f46a60e4a3e9d34"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/rentrez.snbt"
-hash = "0116d6af8461f6fd6965a832b5043ddbb5d91f30790c5a26053e5cd00404c856"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "0fef376c367cb165e7b886c03ada2a3d32abee8abce89b7bf351edd0d6e196aa"
-
-[[files]]
-file = "config/ftbquests/quests/ftbquestsvisualoverhaul_chapter_groups.properties"
-hash = "fdfcbe46c3ff43d74510a3b1f2125be9fb18faaa95aa604ceddf57695d86dab9"
-
-[[files]]
-file = "config/ftbquests/quests/ftbquestsvisualoverhaul_free_pan.properties"
-hash = "3f0f8888b33934935d64a2906a45503919219c9f32a54b72ea1ffb3e8ecfc5bb"
-
-[[files]]
-file = "config/ftbquests/quests/ftbquestsvisualoverhaul_tiles.properties"
-hash = "0b4e3aefda3cbb8395b82d81ce1e8f0fb76816bee0576d1b9b1e4c6f44527053"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/flowers.snbt"
-hash = "a226742fb9fa94518e65cfcc644067c3f941202a77b8a981a0e4f17a2bb7fdd2"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/husbandryplant_seed.snbt"
-hash = "a48a847504215bd104796fa8c8123c44dee7e23002600bc279660fe19cb7f279"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/minecardsboosters.snbt"
-hash = "52a7afb6e1cc18dcda5759ee22aac5aff76b49f728a5f3ba94037ed923678b7a"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/supplies_structures.snbt"
-hash = "6861a91dac3f13ecf5c19d76312ed72abb9dd1daf7ce8cb4307a59285d2732c5"
-
-[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -2049,10 +1989,6 @@ file = "mods/domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar"
 hash = "3a5e8495da3acb3b331393d5131cef03068ee5df2164828e9c22a472f071455f"
 
 [[files]]
-file = "mods/drippyloadingscreen_forge_3.1.5_MC_1.20.1.jar"
-hash = "3213b0a5ae3b487360bc2cafd036a11f35c4e1465122e18e218968c0771ddc42"
-
-[[files]]
 file = "mods/dummmmmmy-1.20-2.0.12-forge.jar"
 hash = "bd7f168ec56f14a25d36d9d0dc4d281e88f77b1ba678907b5c570e5c051a5ca4"
 
@@ -2111,10 +2047,6 @@ hash = "c698ceae7eabe652d267d357cb2dfb40a8db7efddddbd75b53cbc3ff2f5e6e64"
 [[files]]
 file = "mods/explorermapsmod-1.0.0-forge-1.20.1.jar"
 hash = "9a721f4228b451f2bb4d43d6684b59c7f33d03bcfc7f8b079eb5fd361f336778"
-
-[[files]]
-file = "mods/fancymenu_forge_3.9.12_MC_1.20.1.jar"
-hash = "60aa6a94e0c021c989bbea978ea6a233ac2e23e364f15825a8beb7b5ab0b94cf"
 
 [[files]]
 file = "mods/fdlib-1.0.9-1.20.1.jar"
