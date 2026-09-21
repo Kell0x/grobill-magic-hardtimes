@@ -1441,10 +1441,6 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
-file = "crash-reports/crash-2026-09-20_22.25.53-server.txt"
-hash = "53cae6e80b0cbcd9b4dc48e551e7c7ca7015f6a2995bbbb0933b59a671421876"
-
-[[files]]
 file = "icon.png"
 hash = "a81f63b0a9831939d5f117848052adc793e398cb3ef66defc86de74174ba95f6"
 
