@@ -578,7 +578,7 @@ hash = "3a8589564b872097e7954e58dfa1c5e52720791881b10fc7b2f2946dc7fdb895"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0b96c65439577163f25ce40d9adb3927b3f0e0ec3488b9b9cbc73da6dd31eb0a"
+hash = "7453f10391b0dc9cb72017c708538fa51fecbfff77f6882d2d6e2f62526c5906"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -622,7 +622,7 @@ hash = "ffb22d24aefd3737fb4bfacd6addad118f7a6ad15fc7a3e6b1b9ba1ffe84c31e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/diplmes.snbt"
-hash = "94fe6136f44ae9e0235782cabd713dbe36f653293fd1109c2b11bfb802ff139c"
+hash = "fee808355e38b4e06db97b758cd9d765fb310b874a64ad53dc322a1ad6b64daf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/minecards.snbt"
@@ -675,6 +675,10 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 [[files]]
 file = "config/globalgamerules-common.toml"
 hash = "3d0cc557323218459535c9217164c528e2aeeea14111f2e1180a0c1c48e4ef31"
+
+[[files]]
+file = "config/grassiergrass-client.toml"
+hash = "b19f30c7b6cbd6fb796b29a2033545cfee37a70e3f37de5e595a3ef343131faf"
 
 [[files]]
 file = "config/hex_ars_link-common.toml"
@@ -809,6 +813,30 @@ file = "config/jamlib/known_suspicious_jars.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/jei/blacklist.json"
+hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "2271fcfd80edc8983bd5d9ef4a16025074315d4d89617416f397e88ba3ccf321"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "e4bc0c5fce5a7536bce14c94b30e30482e65d63792b29db0ad59d4fa9eb4d1a5"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "5de3969a31149d8974d96bfebb8a1c160d6d5e93fd54fed8e95f6d8ea48427c3"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "66cc1205c4e73195036cdbcccb95ed69d06484a1167ec25e1d6a69059c0e7776"
+
+[[files]]
 file = "config/kindred-client.toml"
 hash = "887bda9faf04397743e603cc6d7147ef2310f44386512c8374260a7ec1a1c37a"
 
@@ -898,11 +926,19 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "00cffb9f73a3df2028b91094611133b18a0b39cbdd292224936a7e430a1c949b"
+hash = "b738d98478a739ed100ec1acac44bbc2801068a4db868c326b3ae628894b531b"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
 hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
+
+[[files]]
+file = "config/particle_core_config.toml"
+hash = "9f21aae26ba31a4fd9bab85c4bb4e37d10ac408aff9feed91ad6acdf1e269634"
+
+[[files]]
+file = "config/particle_core_disabled_optimizations_v2.json"
+hash = "7189bb61c58cb1030b8ee486e66abf694d257192248b9b3ac4978df2b1366f7d"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1445,6 +1481,106 @@ file = "icon.png"
 hash = "a81f63b0a9831939d5f117848052adc793e398cb3ef66defc86de74174ba95f6"
 
 [[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsairshipsalexruizart32pxpng_thumbnail.png"
+hash = "3ada507abd1f37c01cd9291f090f7644e6df3673d502bb1cdb3f2f2a891c2b40"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsautumnnostalgiatree32pxpng.png"
+hash = "3dce428972835ffe8f7f93b586494bc38aca9f3a842cf580c57192694dca3216"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsbeyondhillanddalealenaaenami32pxpng.png"
+hash = "1a33eac4cad33744e61ad8beaf2143a128111100a8f51dd73c4af64f34b74800"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingscalmdaysbythelakescilex32pxpng.png"
+hash = "7e47f68766604ed16748749271c8a313503574743c246102db830b7cf7009e54"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingscavernsennin1332pxpng.png"
+hash = "f27b156373a5be53860852b76e7b9ee8b8145bd41b28e0e12a1007fee4fb7a11"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsconceptbinubalan32pxpng_thumbnail.png"
+hash = "b6969e2c8484beceb5fec06a2e6e056542372e3c2127af2527db7620db9692fd"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingscthulhuandreewallin32pxpng.png"
+hash = "6c037a2e066a32fdac336e86a460b818c0fdcf899fb582e450bc7e2da7b6f6bd"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsdarkphoenixstarkiteckt32pxpng_thumbnail.png"
+hash = "f1fa466be4f21b192bc91a0a8c7678c34798d126b90ee6dcd06e480488ab4381"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsdeerlandscapebyzwadher32pxpng.png"
+hash = "acf26b445dd722491f68cf45fff3d48247ae40d8d8e9c7431ee0893931518c4b"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsfrostvalleyjorgejacinto32pxpng.png"
+hash = "583ed636ad3d919af3c13ebef8cf974df75fe020c1ebe725cb1f88384530ca4c"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsgothiclandscapesorokaalexej32pxpng.png"
+hash = "e3bcc0f31781625df694e93cb2d44daa9eeb012f46c64cb81a10c8f58ca84baf"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingshazycastledavidfrasheski32pxpng_thumbnail.png"
+hash = "3a861251809af9c5593c810bd6876ff037489d490e1fb535f4f7e8399de1163f"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsikrannebulastarkiteckt32pxpng.png"
+hash = "6ac51c1024be11bafcf9e4d09f7a6b9ca985ab16cb5d828d951599b9c73086c4"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingslakesareltheron32pxpng.png"
+hash = "ed57b3a2a2cbd02a35e20dc2bb8144f965fc3568a54aaa9656d146b0f016803c"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingslifeintheskyvladimirkostuchek32pxpng.png"
+hash = "9f3e33d406d393acc5143898a3413aa2d75c6dec62c2cc33470ea425c3e46b66"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsnevermorejosefbarton32pxpng.png"
+hash = "216de657d20a992ca17a52dbff44e1100070bb97dace95680506115959a19092"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingssmallmemorymikaelgustafsson32pxpng.png"
+hash = "81cbc53b8beeb1282c826acf8db5fb2222f0d3993a7194b43a7dd3890aceb27b"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingstheancientonesjessicawoulfe32pxpng.png"
+hash = "7fa4073b86ae4748c1d69d595bc99e030dca1a731a67234e04f89a4598552723"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingstheesteemedpalacechrisostrowski32pxpng.png"
+hash = "cfecaa4a494176cc82c2dbca30aa016b3d2a0709adc0320060090dcedd17f4f7"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsthelostlegendxutianhua32pxpng.png"
+hash = "ad309c1b5c9604a43ba9d45c7b86aad6194757c4f3cca5ee87e4e5dc0d3ec1c4"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsthetorchstarkiteckt32pxpng.png"
+hash = "29c7478b6cf80333f42df82a0f5efd719c9d6a13bc273ab3d3aa6d969e1afa1e"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingstranquilsundaywalkscilex32pxpng_thumbnail.png"
+hash = "e5d1536bcb5ba732672d0cee59398463bae003eb8201a42f2da696b3f1c002e8"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsunderwatertox500032pxpng_thumbnail.png"
+hash = "d22228bd06237e57048c62a20771ea9b6b715b39afcdd8d3dd00231f16bea3f3"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingsvenedigverena32pxpng.png"
+hash = "293d91b1efdaf09521da749362352ece7b7b9466a1eef4b3c4d96dc632ccec02"
+
+[[files]]
+file = "immersive_paintings_cache/immersivepaintingspaintingswindmilltowndarekzabrocki32pxpng_thumbnail.png"
+hash = "c4d12b23e2dffcd453de6d6cc99e02c194a24903cbd2ff90f4cb661ed51bb3e0"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -1654,7 +1790,7 @@ hash = "bb3ef00f215b675573a917e0ee80a020490c326d3991b04c6a4983517e9d6fc8"
 
 [[files]]
 file = "kubejs/startup_scripts/botania.js"
-hash = "b68b7a1324d5a97721a20b974f7404ed4e8eec0f2b52cf549063737f8ec73a52"
+hash = "98f39c3d814da1bf20ea50f36914f6e818da835e453a25b68e3efb0059520af1"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
@@ -2081,6 +2217,10 @@ file = "mods/jamlib-forge-1.3.6+1.20.1-patch.1.jar"
 hash = "ad71c5ad93d305fd9c1f1dcecea2b7431886452baca5b324e80ba3c1241a3e3b"
 
 [[files]]
+file = "mods/jei-1.20.1-forge-15.59.0.212.jar"
+hash = "0f39187f57cadd7b27a4511038628e212b53a1b184edf53121614418ed6a7442"
+
+[[files]]
 file = "mods/kindred-1.1.1.jar"
 hash = "5b30cab67729a260b690f813c0f94a49a260bf5864f60369c65a0092741b1b0f"
 
@@ -2181,6 +2321,10 @@ file = "mods/oneironaut-reforgedv1.20.1 - 1.0.4.jar"
 hash = "53f14f425a5d387be4ec895286609ade659c0d5ce10cbbc4e12731587f0c23a3"
 
 [[files]]
+file = "mods/particle_core-0.3.3+1.20.1+forge.jar"
+hash = "bd4023e4618333f3e6020a7d6f4db3ae7e8fe41b39a43f47e6a1da4fbd80bc1b"
+
+[[files]]
 file = "mods/pathundergates-1.20.1-1.0.2-release.jar"
 hash = "93e22303138cb1877890c9bde61842d0d28ccfe1679e75037f72dbb0d7a34c59"
 
@@ -2221,6 +2365,10 @@ file = "mods/selfexpression-2.22a-forge-1.20.1.jar"
 hash = "b9b199d35860f3c5c468a1c99aa2401feb591d9d91aca521c35229502a5525e8"
 
 [[files]]
+file = "mods/simpleshops-1.2.2.jar"
+hash = "2afb0026e34601f1da9d0a11ddea41a63de69df110d9a3d0ada0523a33f9eeb2"
+
+[[files]]
 file = "mods/slimcolonies-1.20.1-17.4.1.jar"
 hash = "d27a25cbcdfb3b853e2c7340231201c82c3028108d9a3205d33379020d4fe432"
 
@@ -2239,6 +2387,10 @@ hash = "ba034e81689c9eadb4099a8bbefd46c1af128f2ae8ebfb557992e892dbe41376"
 [[files]]
 file = "mods/supplementaries-1.20-3.1.43-forge.jar"
 hash = "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a"
+
+[[files]]
+file = "mods/textiles_and_trinkets-1.1.3-forge-1.20.1.jar"
+hash = "2040d5b0eae08fd36f7763ed8a9985e347f44b36db63e565655910c11a622e2d"
 
 [[files]]
 file = "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
@@ -2653,6 +2805,10 @@ file = "servermods/jamlib-forge-1.3.6+1.20.1-patch.1.jar"
 hash = "ad71c5ad93d305fd9c1f1dcecea2b7431886452baca5b324e80ba3c1241a3e3b"
 
 [[files]]
+file = "servermods/jei-1.20.1-forge-15.59.0.212.jar"
+hash = "0f39187f57cadd7b27a4511038628e212b53a1b184edf53121614418ed6a7442"
+
+[[files]]
 file = "servermods/kindred-1.1.1.jar"
 hash = "5b30cab67729a260b690f813c0f94a49a260bf5864f60369c65a0092741b1b0f"
 
@@ -2745,6 +2901,10 @@ file = "servermods/oneironaut-reforgedv1.20.1 - 1.0.4.jar"
 hash = "53f14f425a5d387be4ec895286609ade659c0d5ce10cbbc4e12731587f0c23a3"
 
 [[files]]
+file = "servermods/particle_core-0.3.3+1.20.1+forge.jar"
+hash = "bd4023e4618333f3e6020a7d6f4db3ae7e8fe41b39a43f47e6a1da4fbd80bc1b"
+
+[[files]]
 file = "servermods/pathundergates-1.20.1-1.0.2-release.jar"
 hash = "93e22303138cb1877890c9bde61842d0d28ccfe1679e75037f72dbb0d7a34c59"
 
@@ -2785,6 +2945,10 @@ file = "servermods/selfexpression-2.22a-forge-1.20.1.jar"
 hash = "b9b199d35860f3c5c468a1c99aa2401feb591d9d91aca521c35229502a5525e8"
 
 [[files]]
+file = "servermods/simpleshops-1.2.2.jar"
+hash = "2afb0026e34601f1da9d0a11ddea41a63de69df110d9a3d0ada0523a33f9eeb2"
+
+[[files]]
 file = "servermods/slimcolonies-1.20.1-17.4.1.jar"
 hash = "d27a25cbcdfb3b853e2c7340231201c82c3028108d9a3205d33379020d4fe432"
 
@@ -2803,6 +2967,10 @@ hash = "ba034e81689c9eadb4099a8bbefd46c1af128f2ae8ebfb557992e892dbe41376"
 [[files]]
 file = "servermods/supplementaries-1.20-3.1.43-forge.jar"
 hash = "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a"
+
+[[files]]
+file = "servermods/textiles_and_trinkets-1.1.3-forge-1.20.1.jar"
+hash = "2040d5b0eae08fd36f7763ed8a9985e347f44b36db63e565655910c11a622e2d"
 
 [[files]]
 file = "servermods/toomanyglyphs-1.20.1-2.3.2.12345.jar"

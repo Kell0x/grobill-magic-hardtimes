@@ -142,6 +142,7 @@ StartupEvents.registry('item', event => {
         return itemstack
     })
     .releaseUsing((itemstack, level, entity, tick) => {
+        const effects = entity.potionEffects
         effects.add('kubejs:devil_stick_effect', 3 * 20)
     })
 })

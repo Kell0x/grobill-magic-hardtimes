@@ -278,8 +278,6 @@
 				"Vous vous souvenez de ce livre qui faisait partie de votre liste de fournitures de première année."
 				""
 				"Qui sait où vous avez bien pu égarer celui que votre mère avait acheté."
-				""
-				"&o&5Certaines recettes, notamment celles de l'enchanting apparatus ne sont pas disponibles via EMI et sont uniquement référencées dans ce livre."
 			]
 			hide_until_deps_complete: true
 			id: "05B5735A8F94A653"
@@ -324,11 +322,7 @@
 		}
 		{
 			dependencies: ["0DDCF01B6F00FD83"]
-			description: [
-				"Vous n'avez jamais été très attentif en cours, mais au moins vous vous souvenez qu'il vous faut un grimoire pour stocker vos sorts et les réutiliser."
-				""
-				"&o&5Certaines recettes, notamment celles de la scroll forge ne sont pas disponibles via EMI et sont uniquement référencées dans ce livre."
-			]
+			description: ["Vous n'avez jamais été très attentif en cours, mais au moins vous vous souvenez qu'il vous faut un grimoire pour stocker vos sorts et les réutiliser."]
 			hide_until_deps_complete: true
 			id: "42F27C74C26D3AAA"
 			rewards: [{
