@@ -73,42 +73,42 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"minecraft:overworld",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"minecraft:overworld",z:0}}'),
         ['kubejs:overworld_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"minecraft:the_nether",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"minecraft:the_nether",z:0}}'),
         ['kubejs:nether_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"minecraft:the_end",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"minecraft:the_end",z:0}}'),
         ['kubejs:end_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"oneironaut:noosphere",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"oneironaut:noosphere",z:0}}'),
         ['kubejs:noosphere_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"oneironaut:deep_noosphere",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"oneironaut:deep_noosphere",z:0}}'),
         ['kubejs:deep_noosphere_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"au_dela:au_dela",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"au_dela:au_dela",z:0}}'),
         ['kubejs:au_dela_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"minecraft:overworld11",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"minecraft:overworld11",z:0}}'),
         ['kubejs:overworld11_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 
     event.shapeless(
-        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:0,dim:"adelm:adelm",z:0}}'),
+        Item.of('ars_nouveau:stable_warp_scroll', '{an_warp_scroll:{yRot:0.0f,x:0,xRot:0.0f,y:200,dim:"adelm:adelm",z:0}}'),
         ['kubejs:adelm_scroll', 'ars_nouveau:stable_warp_scroll']
     )
 })

@@ -1,0 +1,23 @@
+#传送石碑列表排序模式 (Waystone list sort mode)
+#Allowed Values: INDEX, NAME, DISTANCE
+sortMode = "NAME"
+#打开菜单时自动聚焦搜索框 (Auto-focus search bar on menu open)
+focusSearch = true
+#禁用滚动条动画 (Disable scroll animation)
+reducedMotion = false
+#菜单高度缩放比例 (Menu height scale)
+#Range: 0.4 ~ 0.8
+menuHeightScale = 0.66
+#完全禁用增强菜单，回退到原版 Waystones 界面 (Completely disable mod, fall back to vanilla Waystones menu)
+disabled = false
+
+[advanced]
+	#按名称排序时，特殊字符开头的石碑优先显示 (Special-char names first in name sort)
+	specialCharsFirst = true
+	#按搜索相关性排序，最相关的结果优先显示 (Rank search results by relevance)
+	weightedSearch = true
+
+[favorites]
+	#收藏的传送石碑优先显示在列表最前面 (Favorited waystones appear first)
+	favoritesFirst = true
+

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kubejs:item/devil_stick"
+  },
+
+  "display": {
+    "ground": {
+      "rotation": [0, 0, -125],
+      "translation": [0, 3, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+
+    "firstperson_righthand": {
+      "rotation": [-90, 0, -120],
+      "translation": [0, -1, -2],
+      "scale": [0.3, 0.3, 0.3]
+    },
+
+    "firstperson_lefthand": {
+      "rotation": [-90, 0, 120],
+      "translation": [0, -1, -2],
+      "scale": [0.3, 0.3, 0.3]
+    },
+
+    "thirdperson_righthand": {
+      "rotation": [-90, 0, -120],
+      "translation": [0, -1, -2],
+      "scale": [0.3, 0.3, 0.3]
+    },
+
+    "thirdperson_lefthand": {
+      "rotation": [-90, 0, 120],
+      "translation": [0, -1, -2],
+      "scale": [0.3, 0.3, 0.3]
+    }
+  }
+}
