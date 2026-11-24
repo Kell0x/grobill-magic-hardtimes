@@ -1,0 +1,23 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Set World Spawn Point -> Config",
+	"Enable Set World Spawn Point": {
+		"//": "Whether Set World Spawn Point is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"_forceExactSpawn": {
+		"//": "If enabled, spawns players on the exact world spawn instead of around it.",
+		"value": true
+	},
+	"xCoordSpawnPoint": {
+		"//": "The X coordinate of the spawn point of newly created worlds. min: -100,000, max: 100,000",
+		"value": 0
+	},
+	"yCoordSpawnPoint": {
+		"//": "The Y coordinate of the spawn point of newly created worlds. By default -1, which means it'll be the first solid block descending from the top of the world. min: -1, max: 2,000",
+		"value": -1
+	},
+	"zCoordSpawnPoint": {
+		"//": "The Z coordinate of the spawn point of newly created worlds. min: -100,000, max: 100,000",
+		"value": 0
+	}
+}

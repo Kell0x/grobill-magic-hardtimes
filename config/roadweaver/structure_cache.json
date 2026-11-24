@@ -7,7 +7,9 @@
     "oneironaut:noosphere",
     "minecraft:overworld",
     "minecraft:overworld11",
-    "irons_spellbooks:pocket_dimension"
+    "irons_spellbooks:pocket_dimension",
+    "minecraft:the_end",
+    "minecraft:the_nether"
   ],
   "structures": [
     {
@@ -15,21 +17,25 @@
       "displayName": "Ancient City",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "minecraft:bastion_remnant",
       "displayName": "Bastion Remnant",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:buried_treasure",
       "displayName": "Buried Treasure",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -37,27 +43,33 @@
       "displayName": "Desert Pyramid",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "minecraft:end_city",
       "displayName": "End City",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_end"
+      ]
     },
     {
       "id": "minecraft:fortress",
       "displayName": "Fortress",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:igloo",
       "displayName": "Igloo",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -65,7 +77,8 @@
       "displayName": "Jungle Pyramid",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -73,7 +86,8 @@
       "displayName": "Mansion",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -90,7 +104,8 @@
       "displayName": "Mineshaft Mesa",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -98,21 +113,25 @@
       "displayName": "Monument",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "minecraft:nether_fossil",
       "displayName": "Nether Fossil",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:ocean_ruin_cold",
       "displayName": "Ocean Ruin Cold",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -120,7 +139,8 @@
       "displayName": "Ocean Ruin Warm",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -137,7 +157,8 @@
       "displayName": "Pillager Outpost Dark Forest",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -145,7 +166,8 @@
       "displayName": "Pillager Outpost Forest",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -153,7 +175,8 @@
       "displayName": "Pillager Outpost Mangrove",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -161,7 +184,8 @@
       "displayName": "Pillager Outpost Swamp",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -178,7 +202,8 @@
       "displayName": "Ruined Portal Desert",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -186,7 +211,8 @@
       "displayName": "Ruined Portal Jungle",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -194,21 +220,25 @@
       "displayName": "Ruined Portal Mountain",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "minecraft:ruined_portal_nether",
       "displayName": "Ruined Portal Nether",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "minecraft:ruined_portal_ocean",
       "displayName": "Ruined Portal Ocean",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -216,7 +246,8 @@
       "displayName": "Ruined Portal Swamp",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -224,7 +255,8 @@
       "displayName": "Shipwreck",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -232,7 +264,8 @@
       "displayName": "Shipwreck Beached",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -258,7 +291,8 @@
       "displayName": "Swamp Hut",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -266,7 +300,8 @@
       "displayName": "Trail Ruins",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -274,7 +309,8 @@
       "displayName": "Village Desert",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -291,7 +327,8 @@
       "displayName": "Village Savanna",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -299,7 +336,8 @@
       "displayName": "Village Snowy",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -307,7 +345,8 @@
       "displayName": "Village Taiga",
       "isVanilla": true,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -322,7 +361,8 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld11",
-        "minecraft:overworld"
+        "minecraft:overworld",
+        "minecraft:the_end"
       ]
     },
     {
@@ -345,7 +385,8 @@
       "displayName": "Guardian Wilden Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -353,7 +394,8 @@
       "displayName": "Hunter Wilden Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -361,7 +403,8 @@
       "displayName": "Stalker Wilden Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -377,7 +420,8 @@
       "displayName": "Abandoned Spire",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -385,7 +429,8 @@
       "displayName": "Abandoned Temple",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -393,7 +438,8 @@
       "displayName": "Abandoned Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -401,7 +447,8 @@
       "displayName": "Acropolis",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -409,7 +456,8 @@
       "displayName": "Amethyst Nest",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -417,21 +465,25 @@
       "displayName": "Ancient Factory",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "cataclysm:burning_arena",
       "displayName": "Burning Arena",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "cataclysm:cursed_pyramid",
       "displayName": "Cursed Pyramid",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -439,7 +491,8 @@
       "displayName": "Desert Occupied Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -447,7 +500,8 @@
       "displayName": "Desert Site",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -455,27 +509,33 @@
       "displayName": "Frosted Prison",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "cataclysm:ruined_citadel",
       "displayName": "Ruined Citadel",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_end"
+      ]
     },
     {
       "id": "cataclysm:soul_black_smith",
       "displayName": "Soul Black Smith",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "cataclysm:sunken_city",
       "displayName": "Sunken City",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -483,7 +543,8 @@
       "displayName": "Baba Yaga Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -491,7 +552,8 @@
       "displayName": "Dark Coven",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -499,7 +561,8 @@
       "displayName": "Nature Coven",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -507,7 +570,8 @@
       "displayName": "Owl Post Office",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -515,14 +579,17 @@
       "displayName": "Witch Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "irons_spellbooks:ancient_battleground",
       "displayName": "Ancient Battleground",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "irons_spellbooks:catacombs",
@@ -537,7 +604,9 @@
       "id": "irons_spellbooks:citadel",
       "displayName": "Citadel",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "irons_spellbooks:evoker_fort",
@@ -553,7 +622,8 @@
       "displayName": "Ice Spider Den",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -561,7 +631,8 @@
       "displayName": "Impaled Icebreaker",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -569,7 +640,8 @@
       "displayName": "Mangrove Hut",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -577,7 +649,8 @@
       "displayName": "Mountain Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -594,7 +667,8 @@
       "displayName": "Small Village Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -611,7 +685,8 @@
       "displayName": "Small Village Savanna",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -619,7 +694,8 @@
       "displayName": "Small Village Snowy",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -627,7 +703,8 @@
       "displayName": "Small Village Taiga",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -770,7 +847,8 @@
       "displayName": "Wood Bridge Jinhehuan",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -778,7 +856,8 @@
       "displayName": "Wood Bridge Shensexiangmu",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -786,7 +865,8 @@
       "displayName": "Wood Bridge Yinghuamu",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -794,7 +874,8 @@
       "displayName": "Wood Bridge Zhuzi",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -810,14 +891,17 @@
       "id": "trek:end/medium/end_city",
       "displayName": "End/medium/end City",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_end"
+      ]
     },
     {
       "id": "trek:monster_room/lower/deep_dark",
       "displayName": "Monster Room/lower/deep Dark",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -834,7 +918,8 @@
       "displayName": "Monster Room/lower/dripstone",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -842,7 +927,8 @@
       "displayName": "Monster Room/lower/lush",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -859,7 +945,8 @@
       "displayName": "Monster Room/upper/dripstone",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -867,7 +954,8 @@
       "displayName": "Monster Room/upper/lush",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -875,33 +963,41 @@
       "displayName": "Monster Room/upper/oak",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
       "id": "trek:nether/common/nether_pillar",
       "displayName": "Nether/common/nether Pillar",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "trek:nether/medium/overworld_leak_1",
       "displayName": "Nether/medium/overworld Leak 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "trek:nether/medium/overworld_leak_2",
       "displayName": "Nether/medium/overworld Leak 2",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
     },
     {
       "id": "trek:overworld/common/cooking_pork",
       "displayName": "Overworld/common/cooking Pork",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -918,7 +1014,8 @@
       "displayName": "Overworld/common/frozen Remains",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -926,7 +1023,8 @@
       "displayName": "Overworld/common/mushroom House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -934,7 +1032,8 @@
       "displayName": "Overworld/common/ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -942,7 +1041,8 @@
       "displayName": "Overworld/common/small Desert Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -950,7 +1050,8 @@
       "displayName": "Overworld/common/small Swamp Ruins",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -958,7 +1059,8 @@
       "displayName": "Overworld/common/smoldering Altar",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -975,7 +1077,8 @@
       "displayName": "Overworld/common/termite Hill",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -983,7 +1086,8 @@
       "displayName": "Overworld/common/two Woods",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -991,7 +1095,8 @@
       "displayName": "Overworld/common/well",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -999,7 +1104,8 @@
       "displayName": "Overworld/common/well Pillager Small",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1007,7 +1113,8 @@
       "displayName": "Overworld/medium/all Abandoned",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1015,7 +1122,8 @@
       "displayName": "Overworld/medium/base 1",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1023,7 +1131,8 @@
       "displayName": "Overworld/medium/base 2",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1031,7 +1140,8 @@
       "displayName": "Overworld/medium/base Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1039,7 +1149,8 @@
       "displayName": "Overworld/medium/beehive House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1056,7 +1167,8 @@
       "displayName": "Overworld/medium/birch Trade",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1064,7 +1176,8 @@
       "displayName": "Overworld/medium/bone Dragon",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1072,7 +1185,8 @@
       "displayName": "Overworld/medium/buried Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1089,7 +1203,8 @@
       "displayName": "Overworld/medium/camp 2",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1097,7 +1212,8 @@
       "displayName": "Overworld/medium/camp 3",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1105,7 +1221,8 @@
       "displayName": "Overworld/medium/camp 4",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1113,7 +1230,8 @@
       "displayName": "Overworld/medium/church",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1130,7 +1248,8 @@
       "displayName": "Overworld/medium/claw Spike",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1138,7 +1257,8 @@
       "displayName": "Overworld/medium/cold Hideout",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1146,7 +1266,8 @@
       "displayName": "Overworld/medium/cold Red Trade",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1154,7 +1275,8 @@
       "displayName": "Overworld/medium/dark Oak Trade",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1162,7 +1284,8 @@
       "displayName": "Overworld/medium/desert Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1170,7 +1293,8 @@
       "displayName": "Overworld/medium/desert Ranch",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1196,7 +1320,8 @@
       "displayName": "Overworld/medium/enchanter",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1204,7 +1329,8 @@
       "displayName": "Overworld/medium/explorer Cabin",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1221,7 +1347,8 @@
       "displayName": "Overworld/medium/farm Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1238,7 +1365,8 @@
       "displayName": "Overworld/medium/frozen Tree",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1246,7 +1374,8 @@
       "displayName": "Overworld/medium/graveyard",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1254,7 +1383,8 @@
       "displayName": "Overworld/medium/haunted House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1262,7 +1392,8 @@
       "displayName": "Overworld/medium/hobbit Hole",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1270,7 +1401,8 @@
       "displayName": "Overworld/medium/ice Fort",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1278,7 +1410,8 @@
       "displayName": "Overworld/medium/igloo Village",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1286,7 +1419,8 @@
       "displayName": "Overworld/medium/jungle Outpost",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1294,7 +1428,8 @@
       "displayName": "Overworld/medium/jungle Trade",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1302,7 +1437,8 @@
       "displayName": "Overworld/medium/jungle Treehouse",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1310,7 +1446,8 @@
       "displayName": "Overworld/medium/lush Ice",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1327,7 +1464,8 @@
       "displayName": "Overworld/medium/mangrove Watchtower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1335,7 +1473,8 @@
       "displayName": "Overworld/medium/oasis",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1343,7 +1482,8 @@
       "displayName": "Overworld/medium/offshore Platform Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1351,7 +1491,8 @@
       "displayName": "Overworld/medium/orbital",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1386,7 +1527,8 @@
       "displayName": "Overworld/medium/railroad",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1394,7 +1536,8 @@
       "displayName": "Overworld/medium/ritual",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1402,7 +1545,8 @@
       "displayName": "Overworld/medium/ruine Bateaux",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1410,7 +1554,8 @@
       "displayName": "Overworld/medium/ruine Cabane",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1418,7 +1563,8 @@
       "displayName": "Overworld/medium/ruine Tour",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1426,7 +1572,8 @@
       "displayName": "Overworld/medium/ship Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1434,7 +1581,8 @@
       "displayName": "Overworld/medium/small Pyramide",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1442,7 +1590,8 @@
       "displayName": "Overworld/medium/small Red Trade",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1450,7 +1599,8 @@
       "displayName": "Overworld/medium/snow Cottage",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1458,7 +1608,8 @@
       "displayName": "Overworld/medium/snowman",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1466,7 +1617,8 @@
       "displayName": "Overworld/medium/sorcerers House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1474,7 +1626,8 @@
       "displayName": "Overworld/medium/spruce Camp",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1482,7 +1635,8 @@
       "displayName": "Overworld/medium/spruce Cottage",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1490,7 +1644,8 @@
       "displayName": "Overworld/medium/square Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1498,7 +1653,8 @@
       "displayName": "Overworld/medium/star Spike",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1506,7 +1662,8 @@
       "displayName": "Overworld/medium/stelzen",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1523,7 +1680,8 @@
       "displayName": "Overworld/medium/strange House",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1549,7 +1707,8 @@
       "displayName": "Overworld/medium/three Finger Ice",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1557,7 +1716,8 @@
       "displayName": "Overworld/medium/tour",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1565,7 +1725,8 @@
       "displayName": "Overworld/medium/tour Desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1573,7 +1734,8 @@
       "displayName": "Overworld/medium/tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1581,7 +1743,8 @@
       "displayName": "Overworld/medium/tower Of Ice",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1589,7 +1752,8 @@
       "displayName": "Overworld/medium/underwater Sword",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1597,7 +1761,8 @@
       "displayName": "Overworld/medium/wandering Trader Dark Oak",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1605,7 +1770,8 @@
       "displayName": "Overworld/medium/wandering Trader Oak",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1613,7 +1779,8 @@
       "displayName": "Overworld/medium/wandering Trader Spruce",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1621,7 +1788,8 @@
       "displayName": "Overworld/medium/water Reservoir Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1629,7 +1797,8 @@
       "displayName": "Overworld/medium/well Pillager Medium",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1637,7 +1806,8 @@
       "displayName": "Overworld/medium/wild Stone",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1645,7 +1815,8 @@
       "displayName": "Overworld/medium/witch Tower",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1653,7 +1824,8 @@
       "displayName": "Overworld/rare/abandoned Castle Pillager",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1661,7 +1833,8 @@
       "displayName": "Overworld/rare/castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1669,7 +1842,8 @@
       "displayName": "Overworld/rare/cottage Island",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1677,7 +1851,8 @@
       "displayName": "Overworld/rare/elven Tree",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1685,7 +1860,8 @@
       "displayName": "Overworld/rare/maya",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1693,7 +1869,8 @@
       "displayName": "Overworld/rare/mushroom Island",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1701,7 +1878,8 @@
       "displayName": "Overworld/rare/pillager Mansion",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1709,7 +1887,8 @@
       "displayName": "Overworld/rare/portal Sword",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1717,7 +1896,8 @@
       "displayName": "Overworld/rare/pyramide Of Anubis",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1725,7 +1905,8 @@
       "displayName": "Overworld/rare/sleepy Island",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1742,7 +1923,8 @@
       "displayName": "Overworld/rare/tower Island",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1750,7 +1932,8 @@
       "displayName": "Overworld/rare/villager Castle",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1758,7 +1941,8 @@
       "displayName": "Overworld/rare/villager Fortress",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1766,7 +1950,8 @@
       "displayName": "Overworld/rare/villager Island",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1774,7 +1959,8 @@
       "displayName": "Overworld/rare/wooden Manor",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1800,7 +1986,8 @@
       "displayName": "Overworld/very Rare/coves",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1817,7 +2004,8 @@
       "displayName": "Overworld/very Rare/floating Farm Large",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1825,7 +2013,8 @@
       "displayName": "Village/cherry",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1833,7 +2022,8 @@
       "displayName": "Village/desert",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1841,7 +2031,8 @@
       "displayName": "Village/mushroom",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1858,7 +2049,8 @@
       "displayName": "Village/savanna",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1866,7 +2058,8 @@
       "displayName": "Village/snowy",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1874,7 +2067,8 @@
       "displayName": "Village/swamp Vanilla",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     },
     {
@@ -1882,7 +2076,8 @@
       "displayName": "Village/taiga",
       "isVanilla": false,
       "dimensions": [
-        "minecraft:overworld11"
+        "minecraft:overworld11",
+        "minecraft:overworld"
       ]
     }
   ],
