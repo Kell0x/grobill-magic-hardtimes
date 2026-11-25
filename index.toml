@@ -10,7 +10,7 @@ hash = "da41baa38cd86e7388841af4095cb06b9f6f3a1c883cedfe6f0632ea129f4f06"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "5bcca8c9b2870ad788dbd888fd466e0fff8905eccff6710b45418e7e186de1c6"
+hash = "8f85fcd9cde8e1172a2573dce1c4d50f6aab9d29d6ec9af8d585c3d4acd79c9e"
 
 [[files]]
 file = "config/Hexerei-client.toml"
@@ -775,6 +775,10 @@ hash = "509b94a035da34963cb2f9f825fcbf4b67ad921104aa53c221ff98ffef9a5aa4"
 [[files]]
 file = "config/forge-client.toml"
 hash = "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
+
+[[files]]
+file = "config/ftbquests/quests.zip"
+hash = "f594b4aac4c4a3601cbee86ef27ed094372ed8ce956082ac2edc8219e6b1579e"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -2217,10 +2221,6 @@ file = "mods/caelus-forge-3.1.0+1.20.jar"
 hash = "3410966d93cd8f31bf4b48ea838f065f25c3f17c745a06fbc2a6cd0a89d4f785"
 
 [[files]]
-file = "mods/cinematiccataclysm-1.0.1-1.20.1.jar.disabled"
-hash = "2bd504cd4fa0d1cd8981d4e4f26a37a8bb0e900b8011b3cbb0ec048f824eb139"
-
-[[files]]
 file = "mods/clientsort-forge-3.82.0-beta.2+1.20.1.jar"
 hash = "41f71e4dca3e9d3f0fd8acaec78e814a611ff6e27871c64efb39842a69c42ab6"
 
@@ -2343,10 +2343,6 @@ hash = "a54e337cd4879c410aa67a4bfb4d158268880dec49f11ee14ca61971c6a35107"
 [[files]]
 file = "mods/epicterrain-0.2.5.jar"
 hash = "c698ceae7eabe652d267d357cb2dfb40a8db7efddddbd75b53cbc3ff2f5e6e64"
-
-[[files]]
-file = "mods/explorermapsmod-1.0.0-forge-1.20.1.jar.disabled"
-hash = "9a721f4228b451f2bb4d43d6684b59c7f33d03bcfc7f8b079eb5fd361f336778"
 
 [[files]]
 file = "mods/fdlib-1.0.9-1.20.1.jar"
@@ -2629,10 +2625,6 @@ file = "mods/supplementaries-1.20-3.1.43-forge.jar"
 hash = "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a"
 
 [[files]]
-file = "mods/textiles_and_trinkets-1.1.3-forge-1.20.1.jar.disabled"
-hash = "2040d5b0eae08fd36f7763ed8a9985e347f44b36db63e565655910c11a622e2d"
-
-[[files]]
 file = "mods/toomanyglyphs-1.20.1-2.3.2.12345.jar"
 hash = "8746ce72e1c4e9eac28dc40a26fffa56189efdcbb38ffa752f0fc3d7fadbb33e"
 
@@ -2651,10 +2643,6 @@ hash = "71ca69345ef763903213e0b0db3c9c07d2a090ad311d1de66c31798a813a9d0e"
 [[files]]
 file = "mods/via_romana-2.2.2+1.20.1-forge.jar"
 hash = "9fbc32da24deeaab90e03ce3145368786f9fe45897a1b5077f7b06f90f90f7fe"
-
-[[files]]
-file = "mods/villagespawnpoint-1.20.1-4.6.jar.disabled"
-hash = "b6a13630195b5aa19c8963afec5ad0cdaf395316ec39b0009c2aaa72e7e09305"
 
 [[files]]
 file = "mods/voicechat-forge-1.20.1-2.6.23.jar"
@@ -3266,11 +3254,11 @@ hash = "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f"
 
 [[files]]
 file = "servers.dat"
-hash = "c855ee3b16644ac30cf2a010fb65dc39bd00e0d86a2f21f85e892e7a40d99f41"
+hash = "94099d49a5cb3c6636dc9757bd061388674b0a6c8457ec7f36d6d9b52345338e"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2.txt"
-hash = "8ce4c4e21089774e7473f74d39fc17891e69f8cd031149a310a92928a0ec0f1d"
+hash = "a5443f618500bc7cd9ba6f942f1593c1edcff9f4ee2db27ddabc57e5f861d538"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2/ComplementaryLicense.txt"
