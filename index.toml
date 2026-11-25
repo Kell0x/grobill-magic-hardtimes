@@ -777,10 +777,6 @@ file = "config/forge-client.toml"
 hash = "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
 
 [[files]]
-file = "config/ftbquests/quests.zip"
-hash = "f594b4aac4c4a3601cbee86ef27ed094372ed8ce956082ac2edc8219e6b1579e"
-
-[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
