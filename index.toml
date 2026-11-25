@@ -746,7 +746,7 @@ hash = "60dce74f12bb01810c83b2ee3a4dd8a5bc0215ac20aedbbdee154cca0fb797d0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cc9f6473d1fc77b2baaf9ab9e297193e30d78dc42e7f12f5cf062c09afca2fc5"
+hash = "24eb6ebe24e6a3cb64d9dd4360253dfc09922cae693c7ebb342370466db7a569"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -1046,7 +1046,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b8d9f9d774a8c7791d86ae7cafa1a6af99694a8e15a025d4e9ea116ff472fa3f"
+hash = "82fbec2aa165420cb7eccc77dba72da415039373ff66733f4a7a08c43b411516"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2001,6 +2001,10 @@ file = "kubejs/server_scripts/jsconfig.json"
 hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
+file = "kubejs/server_scripts/loot_modifier.js"
+hash = "8bb4cd7af5aace089f6a6dd2b0a39ad447198a33dd697ff094f46d14cee8c5fb"
+
+[[files]]
 file = "kubejs/server_scripts/soul_registry.js"
 hash = "001b1825c9b13b809189f911ebeba75675edbb8f1d1379c0232f0c98940a9fc2"
 
@@ -2475,6 +2479,10 @@ hash = "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
 [[files]]
 file = "mods/lithostitched-forge-1.20.1-1.4.11.jar"
 hash = "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75"
+
+[[files]]
+file = "mods/lootjs-forge-1.20.1-2.13.1.jar"
+hash = "c1672330605a691b8a91b3a4d252f2d3a280f252874f1fc5fdd7cad07d13b719"
 
 [[files]]
 file = "mods/lootr-forge-1.20-0.7.35.94.jar"
@@ -3073,6 +3081,10 @@ file = "servermods/lithostitched-forge-1.20.1-1.4.11.jar"
 hash = "c19a5a36c0e6cb3782cf7ca5b9648fb1bce5fc41fd737bed423a1f4971bccf75"
 
 [[files]]
+file = "servermods/lootjs-forge-1.20.1-2.13.1.jar"
+hash = "c1672330605a691b8a91b3a4d252f2d3a280f252874f1fc5fdd7cad07d13b719"
+
+[[files]]
 file = "servermods/lootr-forge-1.20-0.7.35.94.jar"
 hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
 
@@ -3254,7 +3266,7 @@ hash = "94099d49a5cb3c6636dc9757bd061388674b0a6c8457ec7f36d6d9b52345338e"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2.txt"
-hash = "a5443f618500bc7cd9ba6f942f1593c1edcff9f4ee2db27ddabc57e5f861d538"
+hash = "62c4cae8074d791ae5e8096861373ce92a317ec96d0f4868bfc4c1ffa2db98ea"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2/ComplementaryLicense.txt"
