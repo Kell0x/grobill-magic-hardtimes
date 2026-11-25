@@ -69,8 +69,12 @@ file = "config/ars_elemental/glyph_propagator_homing.toml"
 hash = "e4548fab98804638aaf716c0bbcb7354a3c05c95d6f1d997e45c55f9f1a3ae42"
 
 [[files]]
+file = "config/ars_n_spells-client.toml"
+hash = "36ba617929a46f536abbd8c24b88fa4e34ecce3f548976ba20daa0ca509f60bd"
+
+[[files]]
 file = "config/ars_nouveau-client.toml"
-hash = "c54f14d2579cfff9ad95df94dd3a8abb781f8e05a80ddc0138bdb133963c3d4a"
+hash = "57c63478e2b7f248be703f15c0ba39f40b13ade852e3caf4274351f14b45a726"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
@@ -713,6 +717,10 @@ file = "config/emixx/emixx-client.toml"
 hash = "927a42b9f922a762e501ca0ae596eb7af0396a214609b7bf8b33687349f6b074"
 
 [[files]]
+file = "config/emixx/stack_groups/irons_spellbooks_lootable_focus.json"
+hash = "747c0d14c83895de4af21954d37e68c393df3d5c6df57472186cb82f00eda47c"
+
+[[files]]
 file = "config/enhanced_bes.json"
 hash = "4a51bf3d21783aaddb140220e43d8a95ff899600459bb5e8440fb151d134f59e"
 
@@ -746,7 +754,7 @@ hash = "60dce74f12bb01810c83b2ee3a4dd8a5bc0215ac20aedbbdee154cca0fb797d0"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "24eb6ebe24e6a3cb64d9dd4360253dfc09922cae693c7ebb342370466db7a569"
+hash = "310c92641f1968d9dd83543c11e5604e97998ec5b3d852d83e8138f810c94bf7"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -942,7 +950,7 @@ hash = "4eb3a3eb280558bdd2665fb4792d32551cb6dddc468776e66afc1c3ea981781e"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "66cc1205c4e73195036cdbcccb95ed69d06484a1167ec25e1d6a69059c0e7776"
+hash = "695f26239c5e9cba112498ba4ac7873c8b5caf6da2d858bca1f1f966b76134d9"
 
 [[files]]
 file = "config/kindred-client.toml"
@@ -997,6 +1005,10 @@ file = "config/magiccircles-client.toml"
 hash = "4aa96b7f163d298d94eefc79afc8df4fcd40082c46c7a38cc8a0ad6495a9dfd8"
 
 [[files]]
+file = "config/manaflask-client.toml"
+hash = "bb1389bf1883b31c96826ad6900581b07f26bf8a7254c92120d668ca2e61c30c"
+
+[[files]]
 file = "config/mcqoy.toml"
 hash = "5ded9a920b11f1d4cab63993bc52dad330c6c2f2172356b964953e502c655937"
 
@@ -1010,7 +1022,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "b8b48f0e25dee92872b3a1e4423aa16a121b8b26aa2234185d345e2a9fdd5561"
+hash = "01e8bc886ff89f93a1ca5311d370383c45b990c62714ee6f2a91fa200d61513e"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -1046,7 +1058,7 @@ hash = "cbc1f19ad49273dde46d3f7c888005e780a2ccde34933a543454b773d34cec34"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "82fbec2aa165420cb7eccc77dba72da415039373ff66733f4a7a08c43b411516"
+hash = "3dcc7296fd9e6c2815d3cfa54d7e9a9657c823f141dc88221193ddf733e7d17a"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2002,7 +2014,7 @@ hash = "859b6113943be5159f47d22dacc6278c02a11f3383a60c342f8b481eca99acf6"
 
 [[files]]
 file = "kubejs/server_scripts/loot_modifier.js"
-hash = "8bb4cd7af5aace089f6a6dd2b0a39ad447198a33dd697ff094f46d14cee8c5fb"
+hash = "31b6198129aab3937e023b2742bce907b2181f05d605ff19f4b7d739d7589b07"
 
 [[files]]
 file = "kubejs/server_scripts/soul_registry.js"
@@ -2010,7 +2022,7 @@ hash = "001b1825c9b13b809189f911ebeba75675edbb8f1d1379c0232f0c98940a9fc2"
 
 [[files]]
 file = "kubejs/startup_scripts/ISS.js"
-hash = "bb3ef00f215b675573a917e0ee80a020490c326d3991b04c6a4983517e9d6fc8"
+hash = "328d7c73d237354509150b92a8046332062c835b5df2d090e25388db531dd141"
 
 [[files]]
 file = "kubejs/startup_scripts/botania.js"
@@ -2177,8 +2189,8 @@ file = "mods/ars_botania-1.2.0.jar"
 hash = "63db4a7819a2c57615a6591259d40ff244c6812acbcd26308053da00a019a515"
 
 [[files]]
-file = "mods/ars_n_spells-2.0.0.jar"
-hash = "74b9344785a6b110ddf5b3704437e3f4684414270b673ca6fcfa67f80a67e88a"
+file = "mods/ars_n_spells-3.4.2.jar"
+hash = "b7f689453eb83b6f044ebc8816f32f5d8f4e68b51cb600bcd35a2966578912e6"
 
 [[files]]
 file = "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
@@ -2267,10 +2279,6 @@ hash = "c380ef825c5b37e9d0428ebbf56a855dd64525e713ed21e138fecd5ef77f8f5c"
 [[files]]
 file = "mods/defaultoptions-forge-1.20.1-18.0.5.jar"
 hash = "12fe19e2bbacda90240dc71773590e055b27977dd1ba217806c06bbb4e3a9975"
-
-[[files]]
-file = "mods/dimthread-FORGE-mc1.20.1-v1.2.1.jar"
-hash = "dfbe611d586f9682adcd77cf3ebe4ef2e376bf25ffe69d2f0db0e2773d5cfec7"
 
 [[files]]
 file = "mods/distraction_free_recipes-forge-1.2.1-1.20.1.jar"
@@ -2499,6 +2507,10 @@ hash = "e71dc38573de4cef3e30f855f7fd7ed43223458ea44da803d6e0737b6fda19e4"
 [[files]]
 file = "mods/mana_jade-1.2.1.jar"
 hash = "64e38cea1f280f185012e5777a8970a0a0f1c8dac4514c58424bca00ff964902"
+
+[[files]]
+file = "mods/manaflask-forge-mc1.20.1-0.3.0.jar"
+hash = "d81048f38d1f6efc07cf5ca581fb31cb3cd09672f83c7cf5d27c11c658d39681"
 
 [[files]]
 file = "mods/mcqoy-0.4.1+forge-1.20.jar"
@@ -2793,8 +2805,8 @@ file = "servermods/ars_botania-1.2.0.jar"
 hash = "63db4a7819a2c57615a6591259d40ff244c6812acbcd26308053da00a019a515"
 
 [[files]]
-file = "servermods/ars_n_spells-2.0.0.jar"
-hash = "74b9344785a6b110ddf5b3704437e3f4684414270b673ca6fcfa67f80a67e88a"
+file = "servermods/ars_n_spells-3.4.2.jar"
+hash = "b7f689453eb83b6f044ebc8816f32f5d8f4e68b51cb600bcd35a2966578912e6"
 
 [[files]]
 file = "servermods/ars_nouveau-1.20.1-4.12.7-all.jar"
@@ -2879,10 +2891,6 @@ hash = "c380ef825c5b37e9d0428ebbf56a855dd64525e713ed21e138fecd5ef77f8f5c"
 [[files]]
 file = "servermods/defaultoptions-forge-1.20.1-18.0.5.jar"
 hash = "12fe19e2bbacda90240dc71773590e055b27977dd1ba217806c06bbb4e3a9975"
-
-[[files]]
-file = "servermods/dimthread-FORGE-mc1.20.1-v1.2.1.jar"
-hash = "dfbe611d586f9682adcd77cf3ebe4ef2e376bf25ffe69d2f0db0e2773d5cfec7"
 
 [[files]]
 file = "servermods/domum_ornamentum-1.20.1-1.0.304-snapshot-universal.jar"
@@ -3101,6 +3109,10 @@ file = "servermods/mana_jade-1.2.1.jar"
 hash = "64e38cea1f280f185012e5777a8970a0a0f1c8dac4514c58424bca00ff964902"
 
 [[files]]
+file = "servermods/manaflask-forge-mc1.20.1-0.3.0.jar"
+hash = "d81048f38d1f6efc07cf5ca581fb31cb3cd09672f83c7cf5d27c11c658d39681"
+
+[[files]]
 file = "servermods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
 hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
 
@@ -3266,7 +3278,7 @@ hash = "94099d49a5cb3c6636dc9757bd061388674b0a6c8457ec7f36d6d9b52345338e"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2.txt"
-hash = "62c4cae8074d791ae5e8096861373ce92a317ec96d0f4868bfc4c1ffa2db98ea"
+hash = "150c96f7dbd20b47e9a50007f80200f548ee307bfaa8aca2835e8d5ae4dacc2a"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.10 + EuphoriaPatches_1.11.2/ComplementaryLicense.txt"

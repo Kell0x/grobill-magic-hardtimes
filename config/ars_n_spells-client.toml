@@ -1,0 +1,7 @@
+
+[spellbook]
+	#How converted Iron's spells appear in your Ars spellbook.
+	#grouped: a library with one entry per spell; flat: individual available levels; hidden: hide imported browsing.
+	#Your learned glyphs, saved spells, and casting are preserved.
+	iron_glyph_display_mode = "grouped"
+

@@ -1,0 +1,104 @@
+
+[general]
+	#Where the mana comes from (display = SEPARATE). AUTO uses Iron's Spells 'n Spellbooks if installed,
+	#otherwise Ars Nouveau, otherwise Mahou Tsukai
+	#Allowed Values: AUTO, IRONS_SPELLBOOKS, ARS_NOUVEAU, MAHOU_TSUKAI
+	source = "ARS_NOUVEAU"
+	#SEPARATE: the flask shows the mana of one magic mod (the source option).
+	#UNIFIED: one flask for all your magic mods; the liquid is split in coloured layers, one per mod, each as tall as
+	#that mod's mana over the sum of all their maxima (colours in the unified section)
+	#Allowed Values: SEPARATE, UNIFIED
+	display = "SEPARATE"
+	#Colour of the mana, as #RRGGBB (default arcane violet #8F5BFF)
+	color = "#8F5BFF"
+	#How opaque everything is, in percent
+	#Range: 10 ~ 100
+	opacity = 100
+	#Fade everything out after a few seconds at full mana, back as soon as you spend some
+	hideWhenFull = false
+	#Below this much mana, in percent, the flask pulses to warn you
+	#Range: 0 ~ 90
+	lowThreshold = 20
+
+[flask]
+	#Show the glass flask whose liquid is your mana
+	flask = true
+	#Which corner of the screen the flask sits in
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	corner = "BOTTOM_RIGHT"
+	#Distance from the side of the screen, in GUI pixels
+	#Range: 0 ~ 1000
+	offsetX = 8
+	#Distance from the top or bottom of the screen, in GUI pixels
+	#Range: 0 ~ 1000
+	offsetY = 8
+	#Height of the flask, in GUI pixels
+	#Range: 24 ~ 160
+	size = 48
+	#Show the mana as a number next to the flask
+	showNumber = false
+	#How much the liquid sloshes when you move, jump and turn, in percent (0 = still)
+	#Range: 0 ~ 200
+	slosh = 100
+	#Bubbles rise while mana refills
+	bubbles = true
+	#The glass glows and pulses softly when mana is low
+	lowPulse = true
+	#Tint the liquid texture with the mana colour. Turn off to keep the colours of a resource pack's liquid.png
+	#(a pack can also turn it off with {"manaflask": {"tint": false}} in liquid.png.mcmeta)
+	liquidTint = true
+
+[runes]
+	#Runes around the crosshair that go dark one by one as mana drains
+	runes = false
+	#How many runes in the ring
+	#Range: 6 ~ 12
+	runeCount = 8
+	#Distance of the runes from the crosshair, in GUI pixels
+	#Range: 10 ~ 80
+	runeRadius = 26
+	#Size of each rune: 1 = small (5x7 GUI pixels), 2 = normal, 3 = large
+	#Range: 1 ~ 3
+	runeSize = 2
+
+[edge]
+	#A soft coloured glow at the screen edges that breathes; it grows weaker as mana gets low
+	edge = false
+	#How strong the edge glow is, in percent
+	#Range: 5 ~ 100
+	edgeStrength = 70
+	#How far the glow reaches into the screen, in GUI pixels
+	#Range: 6 ~ 120
+	edgeWidth = 40
+
+[compat]
+	#While you cast an Iron's Spells spell, the mana takes the colour of its school (fire, ice, holy...)
+	ironsSchoolColor = false
+	#Iron's Spells' own mana bar. AUTO: hidden while the flask shows Iron's mana (so you do not see both);
+	#HIDE: hidden while Mana Flask shows Iron's mana in any way (flask, runes or edge); SHOW: always shown.
+	#It is never hidden while Mana Flask shows nothing of Iron's mana (flask off, or another mana source).
+	#Allowed Values: AUTO, HIDE, SHOW
+	hideIronsBar = "HIDE"
+	#Ars Nouveau's own mana bar. AUTO: hidden while the flask shows Ars mana (so you do not see both);
+	#HIDE: hidden while Mana Flask shows Ars mana in any way (flask, runes or edge); SHOW: always shown.
+	#It is never hidden while Mana Flask shows nothing of Ars mana (flask off, or another mana source).
+	#Allowed Values: AUTO, HIDE, SHOW
+	hideArsBar = "HIDE"
+	#Mahou Tsukai's own mana line ("Mana: 100/100"). AUTO: hidden while the flask shows Mahou mana;
+	#HIDE: hidden while Mana Flask shows Mahou mana in any way (flask, runes or edge); SHOW: always shown.
+	#Only the mana line goes: Mahou Tsukai's other HUD text (souls, circuits, mahoujin) stays.
+	#It is never hidden while Mana Flask shows nothing of Mahou mana (flask off, or another mana source).
+	#Allowed Values: AUTO, HIDE, SHOW
+	hideMahouBar = "HIDE"
+
+[unified]
+	#Colour of the Iron's Spells layer in the unified flask, as #RRGGBB.
+	#Empty: the resource pack's colour, else the default blue #4F8BFF
+	ironsColor = ""
+	#Colour of the Ars Nouveau layer in the unified flask, as #RRGGBB.
+	#Empty: the resource pack's colour, else the default violet #B05BFF
+	arsColor = ""
+	#Colour of the Mahou Tsukai layer in the unified flask, as #RRGGBB.
+	#Empty: the resource pack's colour, else the default amber #FFB23F
+	mahouColor = ""
+

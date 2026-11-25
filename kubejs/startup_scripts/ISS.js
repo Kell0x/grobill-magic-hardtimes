@@ -58,7 +58,7 @@ global.portoloin = (ctx) => {
 	player.teleportTo(
 		'adelm:adelm',
 		0,
-		0,
+		200,
 		0,
 		player.getYaw(),
 		player.getPitch()

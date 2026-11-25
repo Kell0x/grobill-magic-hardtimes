@@ -18,4 +18,6 @@ LootJS.modifiers((event) => {
     .removeLoot('kubejs:portoloin')
 });
 
-
+ServerEvents.tags('item', event => {
+  event.remove('irons_spellbooks:lootable_focus', 'kubejs:pov_interplanaire')
+})
