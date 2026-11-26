@@ -3109,10 +3109,6 @@ file = "servermods/mana_jade-1.2.1.jar"
 hash = "64e38cea1f280f185012e5777a8970a0a0f1c8dac4514c58424bca00ff964902"
 
 [[files]]
-file = "servermods/manaflask-forge-mc1.20.1-0.3.0.jar"
-hash = "d81048f38d1f6efc07cf5ca581fb31cb3cd09672f83c7cf5d27c11c658d39681"
-
-[[files]]
 file = "servermods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
 hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
 
